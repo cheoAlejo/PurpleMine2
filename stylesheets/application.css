@@ -194,13 +194,14 @@ body {
 	font-size: 14px;
 	line-height: 1.428571429
 }
+
 a {
-	color: #4183c4;
-	text-decoration: none
+	color: #6A599B;
+	text-decoration: none;
 }
 a:hover, a:focus {
 	color: #3269a0;
-	text-decoration: underline
+	text-decoration: underline;
 }
 a.issue.closed {
 	color: #808080;
@@ -218,11 +219,12 @@ h1 {
 	line-height: 30px
 }
 h2 {
-	margin-top: 0;
-	margin-bottom: 20px;
-	font-size: 1.43em;
-	font-weight: 500;
-	line-height: 20px
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.9em;
+  font-weight: 500;
+  line-height: 20px;
+  text-shadow: 1px 1px 2px #666;
 }
 h2 img {
 	vertical-align: middle
@@ -301,6 +303,8 @@ blockquote>:first-child {
 blockquote>: last-child {
 	margin-bottom: 0
 }
+
+
 input[type="button"],
 input[type="submit"],
 button {
@@ -311,40 +315,37 @@ button {
 	font-weight: normal;
 	text-align: center;
 	white-space: nowrap;
-	padding: 3px 8px;
-	font-size: 14px;
-	line-height: 1.428571429;
-	border-radius: 3px;
+	padding: 5px 18px 5px 14px;
+	font-size: 0.96em;
+	 line-height: 1.428571429; 
+	border-radius: 4px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	-webkit-transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s;
+	/* -webkit-transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s; */
 	-o-transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s;
-	transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s;
+	/* transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s; */
 	color: #fff;
-	border-color: #2a8ee0;
-	background-color: #409ae3;
-	box-shadow: 0 1px 0 #2a8ee0
+	/* border-color: #2a8ee0; */
+	background-color: #816BC0;
+	/* box-shadow: 0 1px 0 #2a8ee0; */
 }
+
 input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, button:hover, button:focus {
-	border-color: #1d79c4;
-	background-color: #2087da;
-	color: #fff;
-	box-shadow: 0 1px 0 #1d79c4
+	background-color: #52447A;
 }
+
+
 input[type="button"]:active, input[type="submit"]:active, button:active {
-	border-color: #2a8ee0;
-	background-color: #409ae3;
-	-webkit-transform: translate(0, 1px);
-	-ms-transform: translate(0, 1px);
-	-o-transform: translate(0, 1px);
-	transform: translate(0, 1px);
-	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3)
+	background-color: #90655C;
 }
+
 input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, button:hover, button:focus {
 	text-decoration: none
 }
+
+
 input[type="button"]:active, input[type="submit"]:active, button:active {
 	outline: 0
 }
@@ -369,24 +370,13 @@ fieldset[disabled] button {
 #issue-form input[type="submit"]+input,
 #history .journal form input[type="submit"]+input {
 	color: #fff;
-	border-color: #017f44;
 	background-color: #019851;
-	box-shadow: 0 1px 0 #017f44
 }
 #issue-form input[type="submit"]+input:hover, #issue-form input[type="submit"]+input:focus, #history .journal form input[type="submit"]+input:hover, #history .journal form input[type="submit"]+input:focus {
-	border-color: #01562e;
-	background-color: #016f3b;
-	color: #fff;
-	box-shadow: 0 1px 0 #01562e
+	background-color: #02512C;
 }
 #issue-form input[type="submit"]+input:active, #history .journal form input[type="submit"]+input:active {
-	border-color: #017f44;
-	background-color: #019851;
-	-webkit-transform: translate(0, 1px);
-	-ms-transform: translate(0, 1px);
-	-o-transform: translate(0, 1px);
-	transform: translate(0, 1px);
-	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3)
+	background-color: #244234;
 }
 #issue-form input[type="submit"]+a,
 #history .journal form input[type="submit"]+a {
@@ -1266,19 +1256,21 @@ table.list {
 	margin-bottom: 0
 }
 table.list th {
-	padding: 8px;
-	border-bottom: 2px solid #dddddd;
-	color: #808080;
-	vertical-align: bottom
+  padding: 8px;
+  color: #FFF;
+  vertical-align: bottom;
+  border: 1px solid transparent;
+  background-color: cadetblue;
 }
 table.list th a {
-	color: #2c2c2c
+	color: #FFF;
 }
 table.list td {
 	padding: 8px;
-	border-bottom: 1px solid #dddddd;
 	text-align: left;
-	vertical-align: top
+	vertical-align: middle;
+	border-bottom: 1px solid #F3F3F3;
+	border-left: 1px dashed #F3F3F3;
 }
 table.list td.checkbox {
 	width: 15px;
@@ -1310,9 +1302,10 @@ table.list td.buttons {
 	text-align: right;
 	white-space: nowrap
 }
+
 table.list td.buttons a {
-	padding-right: 5px
 }
+
 table.list td.project,
 table.list td.created_on,
 table.list td.updated_on,
@@ -1489,65 +1482,54 @@ tr.entry td.age {
 }
 tr.entry.file td.filename a,
 tr.entry.file td.filename_no_report a {
-	margin-left: 16px
+	margin-left: 16px;
+	background-color: transparent;
+	color: #555;
 }
 tr.priority-lowest {
-	background: #dff4d0;
-	color: #4e5c4e
 }
 tr.priority-lowest.odd {
-	background: #d7f1c4
 }
 tr.priority-lowest td {
-	border-color: #bcd4ab
 }
+
+tr.priority-lowest td.priority {
+	font-weight: bold;
+	color: #BDBDBD;
+
+}
+
 tr.priority-lowest a {
-	color: #096
 }
 tr.priority-lowest a:hover {
-	color: #006644
 }
 .issue.details.priority-lowest {
-	color: #676;
-	background: #dff4d0
+	border-left: 2px solid #BDBDBD;
 }
 .issue.details.priority-lowest,
 .issue.details.priority-lowest hr {
-	border-color: #bcd4ab
 }
 .issue.details.priority-lowest a {
-	color: #096
 }
 .issue.details.priority-lowest a:hover {
-	color: #006644
 }
 .issue.details.priority-lowest .next-prev-links {
-	color: #9a9e9a
 }
 .issue.details.priority-lowest>.description>.wiki {
-	border-top-color: #bcd4ab
 }
 .issue.details.priority-lowest .wiki a {
-	color: #4183c4;
-	text-decoration: none
 }
 .issue.details.priority-lowest .wiki a:hover, .issue.details.priority-lowest .wiki a:focus {
-	color: #3269a0;
-	text-decoration: underline
 }
 .issue.details.priority-lowest .wiki a.new {
-	color: #e74c3c
 }
 .issue.details.priority-lowest>.attachments {
-	border-top-color: #caddbc;
-	background-color: #edf9e5
 }
 .issue.details.priority-lowest>.attachments span.author {
-	color: #797d79
 }
 .issue.details.priority-lowest .list td {
-	border-bottom-color: #bcd4ab
 }
+
 tr.priority-default {
 	background: #fff;
 	color: #555555
@@ -1555,28 +1537,35 @@ tr.priority-default {
 tr.priority-default.odd {
 	background: #f7f7f7
 }
+
 tr.priority-default td {
-	border-color: #dddddd
 }
+
+tr.priority-default td.priority {
+	font-weight: bold;
+	color: #97B7CA;
+}
+
 tr.priority-default a {
-	color: #4183c4
+	color: rgb(86, 107, 127);
 }
 tr.priority-default a:hover {
 	color: #3269a0
 }
 .issue.details.priority-default {
 	color: #555555;
-	background: #f9f9f9
+	background: #f9f9f9;
+	border-left: 2px solid #97B7CA;
 }
 .issue.details.priority-default,
 .issue.details.priority-default hr {
 	border-color: #ccc
 }
 .issue.details.priority-default a {
-	color: #4183c4
+	
 }
 .issue.details.priority-default a:hover {
-	color: #3269a0
+	
 }
 .issue.details.priority-default .next-prev-links {
 	color: #959595
@@ -1606,175 +1595,132 @@ tr.priority-default a:hover {
 	border-bottom-color: #ccc
 }
 tr.priority-high3 {
-	background: #d5eaff;
-	color: #3e3e4a
 }
 tr.priority-high3.odd {
-	background: #c6e2ff
 }
 tr.priority-high3 td {
-	border-color: #a1c8ee
 }
+
+tr.priority-high3 td.priority {
+	font-weight: bold;
+	color: #FF7E00;
+}
+
 tr.priority-high3 a {
-	color: #05a
 }
 tr.priority-high3 a:hover {
-	color: #003b77
 }
 .issue.details.priority-high3 {
-	color: #556;
-	background: #d5eaff
+	border-left: 2px solid #FF7E00;
 }
 .issue.details.priority-high3,
 .issue.details.priority-high3 hr {
-	border-color: #a1c8ee
 }
 .issue.details.priority-high3 a {
-	color: #05a
 }
 .issue.details.priority-high3 a:hover {
-	color: #003b77
 }
 .issue.details.priority-high3 .next-prev-links {
-	color: #95959a
 }
 .issue.details.priority-high3>.description>.wiki {
-	border-top-color: #a1c8ee
 }
 .issue.details.priority-high3 .wiki a {
-	color: #4183c4;
-	text-decoration: none
 }
 .issue.details.priority-high3 .wiki a:hover, .issue.details.priority-high3 .wiki a:focus {
-	color: #3269a0;
-	text-decoration: underline
 }
 .issue.details.priority-high3 .wiki a.new {
-	color: #e74c3c
 }
 .issue.details.priority-high3>.attachments {
-	border-top-color: #b6d4f2;
-	background-color: #eff7ff
 }
 .issue.details.priority-high3>.attachments span.author {
-	color: #757579
 }
 .issue.details.priority-high3 .list td {
-	border-bottom-color: #a1c8ee
 }
 tr.priority-high2 {
-	background: #ffe1d7;
-	color: #694141
 }
 tr.priority-high2.odd {
-	background: #ffd6c8
 }
 tr.priority-high2 td {
-	border-color: #efb6a2
 }
+
+tr.priority-high2 td.priority {
+	font-weight: bold;
+	color: #FF7E00;
+
+}
+
 tr.priority-high2 a {
-	color: #b04
 }
 tr.priority-high2 a:hover {
-	color: #880031
 }
 .issue.details.priority-high2 {
-	color: #855;
-	background: #ffe1d7
+	border-left: 2px solid #FF7E00;
 }
 .issue.details.priority-high2,
 .issue.details.priority-high2 hr {
-	border-color: #efb6a2
 }
 .issue.details.priority-high2 a {
-	color: #b04
 }
 .issue.details.priority-high2 a:hover {
-	color: #880031
 }
 .issue.details.priority-high2 .next-prev-links {
-	color: #a29595
 }
 .issue.details.priority-high2>.description>.wiki {
-	border-top-color: #efb6a2
 }
 .issue.details.priority-high2 .wiki a {
-	color: #4183c4;
-	text-decoration: none
 }
 .issue.details.priority-high2 .wiki a:hover, .issue.details.priority-high2 .wiki a:focus {
-	color: #3269a0;
-	text-decoration: underline
 }
 .issue.details.priority-high2 .wiki a.new {
-	color: #e74c3c
 }
 .issue.details.priority-high2>.attachments {
-	border-top-color: #f2c7b8;
-	background-color: #fff4f1
 }
 .issue.details.priority-high2>.attachments span.author {
-	color: #827575
 }
 .issue.details.priority-high2 .list td {
-	border-bottom-color: #efb6a2
 }
 tr.priority-highest {
-	background: #ffc4c4;
-	color: #763434
 }
 tr.priority-highest.odd {
-	background: #ffb4b4
 }
 tr.priority-highest td {
-	border-color: #ec9292
 }
+
+tr.priority-highest td.priority {
+	font-weight: bold;
+	color: #F24141;
+	text-transform: uppercase;
+}
+
 tr.priority-highest a {
-	color: #a03
 }
 tr.priority-highest a:hover {
-	color: #770024
 }
 .issue.details.priority-highest {
-	color: #944;
-	background: #ffc4c4
+	border-left: 2px solid #F24141;
 }
 .issue.details.priority-highest,
 .issue.details.priority-highest hr {
-	border-color: #ec9292
 }
 .issue.details.priority-highest a {
-	color: #a03
 }
 .issue.details.priority-highest a:hover {
-	color: #770024
 }
 .issue.details.priority-highest .next-prev-links {
-	color: #a69191
 }
 .issue.details.priority-highest>.description>.wiki {
-	border-top-color: #ec9292
 }
 .issue.details.priority-highest .wiki a {
-	color: #4183c4;
-	text-decoration: none
 }
 .issue.details.priority-highest .wiki a:hover, .issue.details.priority-highest .wiki a:focus {
-	color: #3269a0;
-	text-decoration: underline
 }
 .issue.details.priority-highest .wiki a.new {
-	color: #e74c3c
 }
 .issue.details.priority-highest>.attachments {
-	border-top-color: #f0a8a8;
-	background-color: #ffdddd
 }
 .issue.details.priority-highest>.attachments span.author {
-	color: #867171
 }
 .issue.details.priority-highest .list td {
-	border-bottom-color: #ec9292
 }
 tr.issue .id>a,
 a.issue,
@@ -1823,11 +1769,14 @@ a.issue.closed:hover:after {
 	border-top-color: rgba(255, 255, 255, 0.25)
 }
 tr.issue .id>a {
-	display: block;
-	padding: 0 6px
+  display: block;
+  padding: 4px 14px 3px 10px;
+  border-radius: 4px;
 }
 tr.issue .id>a:before {
-	color: #b2b2c3;
+	color: #fff;
+	font-weight: normal;
+	font-size: 0.8em;
 	content: "#"
 }
 .issue.details a.issue,
@@ -1946,7 +1895,7 @@ tr.tracker-5 .id>a,
 a.tracker-5,
 .relations>span>a.tracker-5,
 .parent>a.tracker-5 {
-	background-color: #ed820c;
+	background-color: #C389C5;
 	color: #fff
 }
 tr.tracker-5 .id>a:hover, a.tracker-5:hover, .relations>span>a.tracker-5:hover, .parent>a.tracker-5:hover {
@@ -1963,7 +1912,9 @@ a.tracker-5.closed:hover:after {
 	border-top-color: rgba(255, 255, 255, 0.25)
 }
 tr.tracker-5 .id>a:before {
-	color: #f6c085
+	color: #fff;
+	font-weight: normal;
+	font-size: 0.8em;
 }
 .issue.details a.tracker-5,
 .issue.details a.tracker-5:hover, .issue.details .wiki a.tracker-5, .issue.details .wiki a.tracker-5:hover {
@@ -1990,7 +1941,9 @@ a.tracker-6.closed:hover:after {
 	border-top-color: rgba(255, 255, 255, 0.25)
 }
 tr.tracker-6 .id>a:before {
-	color: #8fcccc
+	color: #fff;
+	font-weight: normal;
+	font-size: 0.8em;
 }
 .issue.details a.tracker-6,
 .issue.details a.tracker-6:hover, .issue.details .wiki a.tracker-6, .issue.details .wiki a.tracker-6:hover {
@@ -2000,8 +1953,8 @@ tr.tracker-7 .id>a,
 a.tracker-7,
 .relations>span>a.tracker-7,
 .parent>a.tracker-7 {
-	background-color: #a2634f;
-	color: #fff
+	background-color: #789EE0;
+	color: #ccc
 }
 tr.tracker-7 .id>a:hover, a.tracker-7:hover, .relations>span>a.tracker-7:hover, .parent>a.tracker-7:hover {
 	background-color: #804e3e;
@@ -2017,7 +1970,9 @@ a.tracker-7.closed:hover:after {
 	border-top-color: rgba(255, 255, 255, 0.25)
 }
 tr.tracker-7 .id>a:before {
-	color: #d0b1a7
+	color: #fff;
+	font-weight: normal;
+	font-size: 0.8em;
 }
 .issue.details a.tracker-7,
 .issue.details a.tracker-7:hover, .issue.details .wiki a.tracker-7, .issue.details .wiki a.tracker-7:hover {
@@ -2346,21 +2301,25 @@ table.files tr.file td.digest {
 	width: auto;
 	min-width: 1em;
 	margin-top: 3px;
-	padding: 1px 8px;
+	padding: 6px 10px 3px 8px;
 	border-radius: 3px;
-	background-color: #584492;
+	background-color: cornflowerblue;
 	color: #fff;
 	font-size: 0.86em;
 	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase
+	text-transform: uppercase;
+	
 }
+
+
 .issue.status-1 .attributes td.status {
-	background-color: #409ae3
+	background-color: #E87E7E;
 }
+
 .issue.closed .attributes td.status {
-	background-color: #e74c3c
+	background-color: #84D084;
 }
+
 .issue div.attachments {
 	margin: 15px -15px -15px;
 	padding: 15px
@@ -3301,10 +3260,10 @@ table.progress td {
 	border: 0 none
 }
 table.progress td.closed {
-	background-color: #01cb6c
+	background-color: #84D084;
 }
 table.progress td.done {
-	background-color: #80e4b5
+	background-color: #84D084;
 }
 table.progress td.todo {
 	background-color: #fff
@@ -3754,17 +3713,33 @@ p.bg-danger {
 .other-formats span+span:before {
 	content: "/ "
 }
-a.collapsible,
+/*a.collapsible,
 .collapsible>legend {
 	cursor: pointer;
-	color: #4183c4;
+	color: rgb(86, 107, 127);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none
+	user-select: none;
+	text-shadow: 1px 1px 2px #666;
+}*/
+
+a.collapsible,
+.collapsible>legend {
+	cursor: pointer;
+	color: #fff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: rgb(129, 107, 192);
+	padding: 7px 15px 5px 10px;
+	border-radius: 4px;
+	font-size: 0.88em;
 }
+
 a.collapsible:hover, .collapsible>legend:hover {
-	color: #3269a0
+	  background-color: #524580;
 }
 a.collapsible:before, .collapsible>legend:before {
 	display: inline-block;
@@ -4661,11 +4636,27 @@ table.list .buttons>a:before {
 #context-menu li a.icon-checked {
 	background: transparent
 }
+
+/* # icon buttons */
 .icon {
-	padding-left: 20px;
 	background-repeat: no-repeat;
-	background-position: 0% 50%
+	background-position: 0% 50%;
+	color: #FFFFFF;
+	background-color: cornflowerblue;
+	padding: 7px 14px 7px 30px;
+	border-radius: 4px;
+	font-size: 0.96em;
+	text-shadow: none;
 }
+
+.icon:focus, .icon:hover 
+{
+	background-color: #3768BF;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
 .icon:before {
 	margin-left: -20px
 }
@@ -4804,20 +4795,86 @@ p.buttons .icon {
 .icon-twitter:before {
 	content: "\f081"
 }
+
+
+/* # botones add, edit, checked, save 
 .icon-add,
 .icon-edit,
+.icon-checked,
+.icon-reload,
 .icon-save {
-	color: #019851
+	color: #FFFFFF;
+	background-color: cornflowerblue;
+	padding: 7px 14px 7px 30px;
+	border-radius: 4px;
+	font-size: 0.96em;
 }
-.icon-add:focus, .icon-add:hover, .icon-edit:focus, .icon-edit:hover, .icon-save:focus, .icon-save:hover {
-	color: #016536
+
+.icon-add:focus, .icon-add:hover, 
+.icon-edit:focus, .icon-edit:hover, 
+.icon-save:focus, .icon-save:hover,
+.icon-checked:focus, .icon-checked:hover,
+.icon-reload:focus, .icon-reload:hover 
+{
+	background-color: #3768BF;
+	color: #FFFFFF;
+	text-decoration: none;
+}*/
+
+
+
+
+.icon-del,
+.icon-lock,
+.icon-cancel
+{
+	background-color: #DC5D5D;
+	color: #FFF;
 }
-.icon-del {
-	color: #e74c3c
+
+.icon-del:focus, .icon-del:hover,
+.icon-cancel:focus, .icon-cancel:hover,
+.icon-lock:focus, .icon-lock:hover
+{
+	background-color: #B44040;
+	color: #FFF;
 }
-.icon-del:focus, .icon-del:hover {
-	color: #d62c1a
+
+
+.icon-edit
+{
+	background-color: #816BC0;
+	color: #FFF;
 }
+
+.icon-edit:focus, .icon-edit:hover
+{
+	background-color: #5F4B98;
+	color: #FFF;
+}
+
+
+.icon-projects,
+.icon-package,
+.icon-issue
+{
+	background: none;
+	color: inherit;
+}
+
+.icon-projects:focus, .icon-projects:hover,
+.icon-issue:focus, .icon-issue:hover,
+.icon-package:focus, .icon-package:hover
+{
+	background: none;
+	color: inherit;
+}
+
+
+
+
+
+
 .icon-folder:before, .icon-file:before {
 	width: 16px;
 	text-align: center
@@ -5339,7 +5396,8 @@ table.list th.checkbox>a img {
 }
 #top-menu a {
 	color: #deddef;
-	font-weight: bold
+	font-weight: bold;
+	margin-right: 10px;
 }
 #top-menu a:hover {
 	color: #fff;
@@ -5362,7 +5420,13 @@ table.list th.checkbox>a img {
 	color: #fff
 }
 #header>h1 {
-	padding: 10px 20px
+	padding: 48px 20px 10px 26px;
+	background-image: url("/images/delfinlogo.png");
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+	font-weight: normal;
+	font-size: 2.2em;
+	font-family: Trebuchet MS, Verdana, sans-serif;
 }
 #header>h1>.root {
 	color: #deddef;
@@ -5880,3 +5944,32 @@ table.list td {
 .sidebar-toggler.sidebar-hidden:before {
 	content: "\f152"
 }
+
+
+.issue.details.priority-highest .attributes>tbody>tr>td.priority {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F24141;
+}
+
+.issue.details.priority-high2 .attributes>tbody>tr>td.priority {
+	font-weight: bold;
+	color: #FF7E00;
+}
+
+.issue.details.priority-high3 .attributes>tbody>tr>td.priority {
+	font-weight: bold;
+	color: #FF7E00;
+}
+
+.issue.details.priority-default .attributes>tbody>tr>td.priority {
+	font-weight: bold;
+	color: #97B7CA;
+}
+
+.issue.details.priority-lowest .attributes>tbody>tr>td.priority {
+	font-weight: bold;
+	color: #BDBDBD;
+}
+
+
