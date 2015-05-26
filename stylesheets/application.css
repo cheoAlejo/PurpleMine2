@@ -1895,8 +1895,8 @@ tr.tracker-5 .id>a,
 a.tracker-5,
 .relations>span>a.tracker-5,
 .parent>a.tracker-5 {
-	background-color: #C389C5;
-	color: #fff
+	background-color: #9D8EC8;
+	color: #fff;
 }
 tr.tracker-5 .id>a:hover, a.tracker-5:hover, .relations>span>a.tracker-5:hover, .parent>a.tracker-5:hover {
 	background-color: #c6540a;
@@ -1924,8 +1924,8 @@ tr.tracker-6 .id>a,
 a.tracker-6,
 .relations>span>a.tracker-6,
 .parent>a.tracker-6 {
-	background-color: #20999a;
-	color: #fff
+	background-color: #BFCBE0;
+	color: #FFF;
 }
 tr.tracker-6 .id>a:hover, a.tracker-6:hover, .relations>span>a.tracker-6:hover, .parent>a.tracker-6:hover {
 	background-color: #176f70;
@@ -1953,8 +1953,8 @@ tr.tracker-7 .id>a,
 a.tracker-7,
 .relations>span>a.tracker-7,
 .parent>a.tracker-7 {
-	background-color: #789EE0;
-	color: #ccc
+	background-color: #769DE4;
+	color: #FFF;
 }
 tr.tracker-7 .id>a:hover, a.tracker-7:hover, .relations>span>a.tracker-7:hover, .parent>a.tracker-7:hover {
 	background-color: #804e3e;
@@ -3732,9 +3732,9 @@ a.collapsible,
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	background-color: rgb(129, 107, 192);
+	background-color: #8DA7D5;
 	padding: 7px 15px 5px 10px;
-	border-radius: 4px;
+	border-radius: 3px;
 	font-size: 0.88em;
 }
 
