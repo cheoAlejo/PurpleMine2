@@ -1726,9 +1726,10 @@ tr.issue .id>a,
 a.issue,
 .relations>span>a.issue,
 .parent>a.issue {
-	border-radius: 2px 6px 6px 2px;
+	border-radius: 3px;
 	background-color: #668;
-	color: #fff
+	color: #fff;
+	font-size: 0.85em;
 }
 tr.issue .id>a:hover, a.issue:hover, .relations>span>a.issue:hover, .parent>a.issue:hover {
 	background-color: #50506b;
