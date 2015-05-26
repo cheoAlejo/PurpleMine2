@@ -5393,7 +5393,8 @@ table.list th.checkbox>a img {
 }
 #top-menu ul {
 	margin: 0;
-	padding: 0
+	padding: 0;
+	float: left;
 }
 #top-menu li {
 	display: inline;
