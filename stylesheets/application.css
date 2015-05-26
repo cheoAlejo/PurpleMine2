@@ -1771,7 +1771,7 @@ a.issue.closed:hover:after {
 }
 tr.issue .id>a {
   display: block;
-  padding: 4px 14px 3px 10px;
+  padding: 5px 8px 4px 6px;
   border-radius: 4px;
 }
 tr.issue .id>a:before {
