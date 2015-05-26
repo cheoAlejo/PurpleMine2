@@ -4303,8 +4303,14 @@ tr.changeset td.committed_on {
 	white-space: nowrap
 }
 tr.changeset td.comments p {
-	margin-bottom: 0
+	margin-bottom: 0;
+	display: none;
 }
+
+tr.changeset td.comments p:first-child {
+  display: block;
+}
+
 tr.changeset ul {
 	margin-top: 0;
 	margin-bottom: 0
