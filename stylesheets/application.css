@@ -2306,7 +2306,7 @@ table.files tr.file td.digest {
 	border-radius: 3px;
 	background-color: cornflowerblue;
 	color: #fff;
-	font-size: 0.86em;
+	font-size: 0.9em;
 	font-weight: bold;
 	text-transform: uppercase;
 	
@@ -5955,14 +5955,34 @@ table.list td {
 
 
 .issue.details.priority-highest .attributes>tbody>tr>td.priority {
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #F24141;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #F24141;
+  display: inline-block;
+  width: auto;
+  min-width: 1em;
+  margin-top: 3px;
+  padding: 6px 10px 3px 8px;
+  border-radius: 3px;
+  background-color: #F24141;
+  color: #fff;
+  font-size: 0.86em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .issue.details.priority-high2 .attributes>tbody>tr>td.priority {
-	font-weight: bold;
-	color: #FF7E00;
+  display: inline-block;
+  width: auto;
+  min-width: 1em;
+  margin-top: 3px;
+  padding: 6px 10px 3px 8px;
+  border-radius: 3px;
+  background-color: #FF7E00;
+  color: #fff;
+  font-size: 0.86em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .issue.details.priority-high3 .attributes>tbody>tr>td.priority {
@@ -5971,13 +5991,31 @@ table.list td {
 }
 
 .issue.details.priority-default .attributes>tbody>tr>td.priority {
-	font-weight: bold;
-	color: #97B7CA;
+  display: inline-block;
+  width: auto;
+  min-width: 1em;
+  margin-top: 3px;
+  padding: 6px 10px 3px 8px;
+  border-radius: 3px;
+  background-color: #97B7CA;
+  color: #FFF;
+  font-size: 0.86em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .issue.details.priority-lowest .attributes>tbody>tr>td.priority {
-	font-weight: bold;
-	color: #BDBDBD;
+  display: inline-block;
+  width: auto;
+  min-width: 1em;
+  margin-top: 3px;
+  padding: 6px 10px 3px 8px;
+  border-radius: 3px;
+  background-color: #BDBDBD;
+  color: #FFF;
+  font-size: 0.86em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 
