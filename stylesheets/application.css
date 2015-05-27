@@ -6013,3 +6013,59 @@ table.list td {
 }
 
 
+.status-1 table.attributes td.status {
+  background-image: url(/images/nuevo.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
+.status-2 table.attributes td.status {
+  background-image: url(/images/porhacer.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
+.status-3 table.attributes td.status {
+  background-image: url(/images/descartado.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
+.status-4 table.attributes td.status {
+  background-image: url(/images/enprogreso.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
+.status-5 table.attributes td.status {
+  background-image: url(/images/entesteo.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
+.status-6 table.attributes td.status {
+  background-image: url(/images/cerrado.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
+.status-7 table.attributes td.status {
+  background-image: url(/images/ejecutado.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+
