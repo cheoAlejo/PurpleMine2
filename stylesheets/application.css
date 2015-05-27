@@ -6086,7 +6086,7 @@ div.topic ul.meta li.icon
 }
 
 
-input.questions-search
+.board input.questions-search
 {
 	background: url(/images/magnifier.png) no-repeat 6px 50%;
 	background-color: white;
@@ -6097,7 +6097,7 @@ input.questions-search
 }
 
 
-.topic
+#topics_container .topic
 {
 	padding: 10px 0 20px;
 	margin-top: 24px;
@@ -6114,7 +6114,7 @@ div.topic h3.subject
 }
 
 
-#sidebar ul.questions-tags li
+#main #sidebar ul.questions-tags li
 {
 	display: inline;
 	background-color: #A691E5;
@@ -6126,12 +6126,12 @@ div.topic h3.subject
 }
 
 
-#sidebar ul.questions-tags li>a {
+#main #sidebar ul.questions-tags li>a {
   color: white;
 }
 
 
-#sidebar ul.questions-tags span.count {
+#main #sidebar ul.questions-tags span.count {
   display: none;
 }
 
