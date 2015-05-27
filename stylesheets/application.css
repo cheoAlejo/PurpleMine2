@@ -6077,3 +6077,61 @@ table.list td {
 }
 
 
+div.topic ul.meta li.icon
+{
+	background-color: transparent;
+	padding: 8px 0px 4px 20px;
+	margin-right: 18px;
+	margin-top: 2px;
+}
+
+
+input.questions-search
+{
+	background: url(/images/magnifier.png) no-repeat 6px 50%;
+	background-color: white;
+	padding-left: 30px;
+	border-radius: 3px;
+	height: 2.5em;
+	width: 50%;
+}
+
+
+.topic
+{
+	padding: 10px 0 20px;
+	margin-top: 24px;
+
+}
+
+
+div.topic h3.subject
+{
+	margin: 0px;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 2px #BBB;
+	margin-bottom: 12px;
+}
+
+
+#sidebar ul.questions-tags li
+{
+	display: inline;
+	background-color: #A691E5;
+	color: white;
+	font-size: 0.84em;
+	padding: 6px 7px 6px 6px;
+	border-radius: 3px;
+	margin: 2px;
+}
+
+
+#sidebar ul.questions-tags li>a {
+  color: white;
+}
+
+
+#sidebar ul.questions-tags span.count {
+  display: none;
+}
+
