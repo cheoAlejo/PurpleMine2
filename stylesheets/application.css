@@ -6194,5 +6194,6 @@ div.message.reply div.reply-details .author {
   position: relative;
   opacity: 1;
   background-position: center;
+  bottom: 0;
 }
 
