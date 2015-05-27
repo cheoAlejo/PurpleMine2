@@ -6129,10 +6129,19 @@ div.topic h3.subject
 	background-color: #A691E5;
 	color: white;
 	font-size: 0.84em;
-	padding: 6px 7px 6px 6px;
+	padding: 4px 7px 4px 6px;
 	border-radius: 3px;
 	margin: 2px;
 	float: left;
+}
+
+
+#sidebar li.tags>a {
+	background-color: #A691E5;
+	color: white;
+	font-size: 0.87em;
+	padding: 4px 7px 4px 6px;
+	border-radius: 3px;
 }
 
 
@@ -6147,5 +6156,13 @@ div.topic h3.subject
 
 #main #sidebar ul.questions-tags span.count {
   display: none;
+}
+
+
+#sidebar ul.question-meta li.icon {
+	background-color: transparent;
+	padding: 6px 0px 4px 20px;
+	color: inherit;
+	margin: 0;
 }
 
