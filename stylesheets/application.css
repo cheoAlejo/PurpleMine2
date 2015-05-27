@@ -6140,9 +6140,10 @@ div.topic h3.subject
 	background-color: #A691E5;
 	color: white;
 	font-size: 0.87em;
-	padding: 4px 7px 4px 6px;
+	padding: 3px 7px 3px 6px;
 	border-radius: 3px;
-	display: inline;
+	display: inline-block;
+	margin: 2px 0px 2px 0px;
 }
 
 
@@ -6167,3 +6168,7 @@ div.topic h3.subject
 	margin: 0;
 }
 
+
+#sidebar h3 {
+	clear: both;
+}
