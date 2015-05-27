@@ -6094,6 +6094,7 @@ div.topic ul.meta li.icon
 	border-radius: 3px;
 	height: 2.5em;
 	width: 50%;
+	font-size: 1em;
 }
 
 
@@ -6114,20 +6115,33 @@ div.topic h3.subject
 }
 
 
+#main #sidebar ul.questions-tags
+{
+	list-style: none;
+	padding: 0px;
+	padding-bottom: 30px;
+	display: block;
+}
+
+
 #main #sidebar ul.questions-tags li
 {
-	display: inline;
 	background-color: #A691E5;
 	color: white;
 	font-size: 0.84em;
 	padding: 6px 7px 6px 6px;
 	border-radius: 3px;
 	margin: 2px;
+	float: left;
 }
 
 
 #main #sidebar ul.questions-tags li>a {
-  color: white;
+	color: white;
+	display: inline;
+	padding: 0px;
+	border: none;
+	border-radius: 0;
 }
 
 
