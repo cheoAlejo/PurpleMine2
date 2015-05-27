@@ -4137,7 +4137,7 @@ table.boards td.last-message a: last-child {
 	font-weight: bold
 }
 .controller-messages.action-show h2 {
-	margin-bottom: 10px
+	  margin: 16px 0 10px 12px;
 }
 .controller-messages.action-show .message {
 	border: 1px solid #d9d9d9;
@@ -6171,4 +6171,13 @@ div.topic h3.subject
 
 #sidebar h3 {
 	clear: both;
+}
+
+
+#content div.message.details img.gravatar {
+	float: left;
+	margin-right: 5px;
+	margin-left: 13px;
+	width: 50px;
+	height: 50px;
 }
