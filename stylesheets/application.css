@@ -1575,7 +1575,6 @@ tr.priority-default a:hover {
 	text-decoration: none
 }
 .issue.details.priority-default .wiki a:hover, .issue.details.priority-default .wiki a:focus {
-	text-decoration: underline
 }
 .issue.details.priority-default .wiki a.new {
 	color: #e74c3c
