@@ -2294,25 +2294,16 @@ table.files tr.file td.digest {
 }
 }
 .issue .attributes td.status {
-	display: inline-block;
 	width: auto;
 	min-width: 1em;
 	margin-top: 3px;
-	padding: 6px 10px 3px 8px;
-	border-radius: 3px;
-	background-color: cornflowerblue;
-	color: #fff;
-	font-size: 0.88em;
-	font-weight: bold;
 }
 
 
 .issue.status-1 .attributes td.status {
-	background-color: #E87E7E;
 }
 
 .issue.closed .attributes td.status {
-	background-color: #84D084;
 }
 
 .issue div.attachments {
