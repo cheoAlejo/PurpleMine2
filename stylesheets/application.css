@@ -5947,13 +5947,14 @@ table.list td {
   width: auto;
   min-width: 1em;
   margin-top: 3px;
-  padding: 6px 10px 3px 8px;
+  padding: 6px 20px 3px 20px;
   border-radius: 3px;
   background-color: #F24141;
   color: #fff;
   font-size: 0.86em;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 6px 20px 3px 20px;
 }
 
 .issue.details.priority-high2 .attributes>tbody>tr>td.priority {
@@ -5961,13 +5962,14 @@ table.list td {
   width: auto;
   min-width: 1em;
   margin-top: 3px;
-  padding: 6px 10px 3px 8px;
+  padding: 6px 20px 3px 20px;
   border-radius: 3px;
   background-color: #FF7E00;
   color: #fff;
   font-size: 0.86em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .issue.details.priority-high3 .attributes>tbody>tr>td.priority {
@@ -5980,13 +5982,14 @@ table.list td {
   width: auto;
   min-width: 1em;
   margin-top: 3px;
-  padding: 6px 10px 3px 8px;
+  padding: 6px 20px 3px 20px;
   border-radius: 3px;
   background-color: #97B7CA;
   color: #FFF;
   font-size: 0.86em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .issue.details.priority-lowest .attributes>tbody>tr>td.priority {
@@ -5994,13 +5997,14 @@ table.list td {
   width: auto;
   min-width: 1em;
   margin-top: 3px;
-  padding: 6px 10px 3px 8px;
+  padding: 6px 20px 3px 20px;
   border-radius: 3px;
   background-color: #BDBDBD;
   color: #FFF;
   font-size: 0.86em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 
