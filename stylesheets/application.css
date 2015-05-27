@@ -1572,7 +1572,6 @@ tr.priority-default a:hover {
 	border-top-color: #ccc
 }
 .issue.details.priority-default .wiki a {
-	color: #4183c4;
 	text-decoration: none
 }
 .issue.details.priority-default .wiki a:hover, .issue.details.priority-default .wiki a:focus {
