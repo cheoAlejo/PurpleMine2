@@ -5413,14 +5413,14 @@ table.list th.checkbox>a img {
 	color: #fff
 }
 #header>h1 {
-	padding: 17px 20px 11px 76px;
+	padding: 14px 20px 8px 70px;
 	background-image: url("/images/delfinlogo.png");
 	background-repeat: no-repeat;
-	background-position: 16px 3px;
+	background-position: 16px 4px;
 	font-weight: normal;
 	font-size: 2.2em;
 	font-family: Trebuchet MS, Verdana, sans-serif;
-	background-size: 50px 50px;
+	background-size: 46px 44px;
 }
 #header>h1>.root {
 	color: #deddef;
