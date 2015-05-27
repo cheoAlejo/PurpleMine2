@@ -6142,6 +6142,7 @@ div.topic h3.subject
 	font-size: 0.87em;
 	padding: 4px 7px 4px 6px;
 	border-radius: 3px;
+	display: inline;
 }
 
 
