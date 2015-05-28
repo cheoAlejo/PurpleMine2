@@ -3985,7 +3985,7 @@ a.close-icon:hover {
 }
 #browser td {
 	padding: 5px;
-	border: 0 none
+	  border-bottom: 1px solid #fafafa;
 }
 ul.projects {
 	padding-left: 20px
