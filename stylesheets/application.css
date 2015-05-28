@@ -6192,10 +6192,13 @@ div.message.reply div.reply-details .author {
 
 
 #content div.message.reply .contextual .icon.vote {
-  position: relative;
-  opacity: 1;
-  background-position: center;
-  bottom: 0;
+	position: relative;
+	opacity: 1;
+	background-position-x: 20%;
+	bottom: 0;
+	background-color: transparent;
+	color: #bbb;
+	font-size: 0.85em;
 }
 
 
@@ -6215,4 +6218,9 @@ a.icon.icon-attachment {
   background-color: transparent;
   padding: 7px 14px 7px 30px;
   border-radius: 0;
+}
+
+
+a.icon.icon-vote {
+  background-position-x: 8px;
 }
