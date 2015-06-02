@@ -3327,7 +3327,7 @@ div.wiki {
   color: #606060;
   line-height: 1.4em;
   font-family: 'Open Sans', Arial;
-  font-size: 1.22em;
+  font-size: 1.18em;
 }
 div.wiki h1,
 div.wiki .h1,
@@ -6332,4 +6332,10 @@ a.icon.icon-vote {
   border: 1px solid #ccc;
   box-shadow: 5px 5px 5px #ccc;
   z-index: 1000;
+}
+
+
+#sidebar #taglist li>a.tag {
+  display: inline-block;
+  margin-left: 40px;
 }
