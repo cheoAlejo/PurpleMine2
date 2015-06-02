@@ -3364,8 +3364,9 @@ div.wiki .h2 {
 }
 div.wiki h3,
 div.wiki .h3 {
-	font-size: 1.5em;
-	line-height: 1.43
+  font-size: 1.9em;
+  line-height: 1.43;
+  color: #E26538;
 }
 div.wiki h4,
 div.wiki .h4 {
