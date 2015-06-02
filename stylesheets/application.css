@@ -6297,3 +6297,11 @@ a.icon.icon-vote {
 #content h1 {
   font-family: 'Open Sans', Arial;
 }
+
+
+#sidebar #options .icon {
+  display: inline-block;
+  margin: 4px;
+  padding: 4px 14px 3px 30px;
+  border-radius: 4px;
+}
