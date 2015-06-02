@@ -6292,3 +6292,8 @@ a.icon.icon-vote {
   padding-left: 16px;
   display: block;
 }
+
+
+#content h1 {
+  font-family: 'Open Sans', Arial;
+}
