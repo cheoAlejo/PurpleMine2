@@ -236,10 +236,10 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 1.9em;
-  font-weight: 500;
+  font-size: 2em;
+  font-weight: bold;
   line-height: 20px;
-  text-shadow: 1px 1px 2px #666;
+  font-family: 'Open Sans', Verdana, sans-serif;
 }
 h2 img {
 	vertical-align: middle
@@ -5426,7 +5426,7 @@ table.list th.checkbox>a img {
 	color: #fff
 }
 #header>h1 {
-	padding: 18px 0px 18px 70px;
+	padding: 16px 0px 20px 70px;
 	background-image: url("/images/delfinlogo.png");
 	background-repeat: no-repeat;
 	background-position: 16px 6px;
