@@ -5385,8 +5385,8 @@ table.list th.checkbox>a img {
 #top-menu {
 	position: relative;
 	padding: 7px 20px;
-	background: #584492;
-	color: #deddef;
+	background: #4F6EA5;
+	color: #C2CFE5;
 	font-size: 0.82em;
 }
 #top-menu ul {
@@ -5401,7 +5401,7 @@ table.list th.checkbox>a img {
 	list-style-type: none
 }
 #top-menu a {
-	color: #deddef;
+	color: #C2CFE5;
 	font-weight: bold;
 	margin-right: 10px;
 }
@@ -5422,7 +5422,7 @@ table.list th.checkbox>a img {
 }
 #header {
 	position: relative;
-	background-color: #584492;
+	background-color: #4F6EA5;
 	color: #fff
 }
 #header>h1 {
@@ -5460,8 +5460,8 @@ table.list th.checkbox>a img {
 #quick-search input,
 #quick-search select {
 	margin-left: 5px;
-	border-color: #51427E;
-	background: #7F6EB2;
+	border-color: #385B99;
+	background: #7390C3;
 	color: #deddef;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	-o-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
