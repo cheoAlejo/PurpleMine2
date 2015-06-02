@@ -5371,8 +5371,8 @@ table.list th.checkbox>a img {
 	position: relative;
 	padding: 5px 20px;
 	background: #392c5e;
-	color: #deddef;
-	font-size: 0.86em
+	color: #584492;
+	font-size: 0.82em;
 }
 #top-menu ul {
 	margin: 0;
@@ -5411,10 +5411,10 @@ table.list th.checkbox>a img {
 	color: #fff
 }
 #header>h1 {
-	padding: 14px 20px 8px 70px;
+	padding: 16px 20px 12px 70px;
 	background-image: url("/images/delfinlogo.png");
 	background-repeat: no-repeat;
-	background-position: 16px 4px;
+	background-position: 16px 5px;
 	font-weight: normal;
 	font-size: 2.2em;
 	font-family: Trebuchet MS, Verdana, sans-serif;
@@ -5445,8 +5445,8 @@ table.list th.checkbox>a img {
 #quick-search input,
 #quick-search select {
 	margin-left: 5px;
-	border-color: #392c5e;
-	background: #43346f;
+	border-color: #51427E;
+	background: #7F6EB2;
 	color: #deddef;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	-o-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
