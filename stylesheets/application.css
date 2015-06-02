@@ -6324,3 +6324,13 @@ a.icon.icon-vote {
   box-shadow: 5px 5px 5px #ccc;
   z-index: 1000;
 }
+
+
+.jstb_ext_submenu.jstb_img_submenu {
+  position: absolute;
+  /* width: 300px; */
+  background-color: #F7F7F7;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  z-index: 1000;
+}
