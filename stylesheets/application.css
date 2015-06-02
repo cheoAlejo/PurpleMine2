@@ -6317,7 +6317,7 @@ a.icon.icon-vote {
 }
 
 
-jstb_ext_submenu jstb_coderay_submenu
+.jstb_ext_submenu .jstb_coderay_submenu
 {
   position: absolute;
   background-color: #F7F7F7;
