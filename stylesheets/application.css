@@ -5370,8 +5370,8 @@ table.list th.checkbox>a img {
 #top-menu {
 	position: relative;
 	padding: 5px 20px;
-	background: #392c5e;
-	color: #584492;
+	background: #584492;
+	color: #deddef;
 	font-size: 0.82em;
 }
 #top-menu ul {
