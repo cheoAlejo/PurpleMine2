@@ -6305,3 +6305,12 @@ a.icon.icon-vote {
   padding: 4px 14px 3px 30px;
   border-radius: 4px;
 }
+
+
+#sidebar #taglist a {
+  color: #fff;
+  background-color: #43ABB8;
+  padding: 3px 8px 3px 7px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
