@@ -6224,3 +6224,30 @@ a.icon.icon-attachment {
 a.icon.icon-vote {
   background-position-x: 8px;
 }
+
+
+.jstb_ext_submenu.jstb_coderay_submenu button {
+  width: 80px;
+  text-align: center;
+  margin: 0;
+  color: #888;
+  border: none;
+  font-size: 0.86em;
+  text-align: left;
+  padding-left: 16px;
+  text-transform: capitalize;
+}
+
+
+.jstb_ext_submenu.jstb_img_submenu button {
+  color: #888;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: #888;
+  border: none;
+  font-size: 0.86em;
+  text-align: left;
+  padding-left: 16px;
+  display: block;
+}
