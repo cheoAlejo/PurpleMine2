@@ -1,3 +1,18 @@
+/* open-sans-300 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/open-sans-v13-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+       url('../fonts/open-sans-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v13-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
 .clear:after, .tabular p:after, label[for=closed]:after, #watchers_form label.floating:after, .check_box_group.bool_cf label:after, .tabs>ul:after, #tab-content-members fieldset label:after, #tab-content-memberships fieldset label:after, #tab-content-users fieldset label:after, #main:after, #search-results-counts ul:after, #search-form label:after, .splitcontent:after, #users_for_watcher label:after, #watchers>.watchers>li:after, #top-menu:after, #main-menu ul:after, .jstElements:after {
 	display: table;
 	clear: both;
@@ -5417,7 +5432,7 @@ table.list th.checkbox>a img {
 	background-position: 16px 6px;
 	font-weight: normal;
 	font-size: 2.4em;
-	font-family: Trebuchet MS, Verdana, sans-serif;
+	font-family: 'Open Sans', Trebuchet MS, Verdana, sans-serif;
 	background-size: 46px 44px;
 }
 #header>h1>.root {
