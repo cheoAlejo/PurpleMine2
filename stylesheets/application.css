@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
 .clear:after, .tabular p:after, label[for=closed]:after, #watchers_form label.floating:after, .check_box_group.bool_cf label:after, .tabs>ul:after, #tab-content-members fieldset label:after, #tab-content-memberships fieldset label:after, #tab-content-users fieldset label:after, #main:after, #search-results-counts ul:after, #search-form label:after, .splitcontent:after, #users_for_watcher label:after, #watchers>.watchers>li:after, #top-menu:after, #main-menu ul:after, .jstElements:after {
 	display: table;
 	clear: both;
@@ -5417,7 +5419,7 @@ table.list th.checkbox>a img {
 	background-position: 16px 6px;
 	font-weight: normal;
 	font-size: 2.4em;
-	font-family: Trebuchet MS, Verdana, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-size: 46px 44px;
 }
 #header>h1>.root {
