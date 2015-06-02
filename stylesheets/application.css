@@ -6315,3 +6315,13 @@ a.icon.icon-vote {
   font-size: 0.86em;
   border: none;
 }
+
+
+jstb_ext_submenu jstb_coderay_submenu
+{
+  position: absolute;
+  background-color: #F7F7F7;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  z-index: 1000;
+}
