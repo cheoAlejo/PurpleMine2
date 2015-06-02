@@ -6309,8 +6309,9 @@ a.icon.icon-vote {
 
 #sidebar #taglist a {
   color: #fff;
-  background-color: #43ABB8;
-  padding: 3px 8px 3px 7px;
+  background-color: #7F6EB2;
+  padding: 4px 8px 4px 7px;
   border-radius: 3px;
-  font-size: 0.9em;
+  font-size: 0.86em;
+  border: none;
 }
