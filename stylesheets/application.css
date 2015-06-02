@@ -3367,10 +3367,13 @@ div.wiki .h3 {
   font-size: 1.9em;
   line-height: 1.43;
   color: #E26538;
+  margin-top: 1.5em;
 }
 div.wiki h4,
 div.wiki .h4 {
-	font-size: 1.286em
+  font-size: 1.4em;
+  color: #2D7C2D;
+  margin-top: 1.2em;
 }
 div.wiki h5,
 div.wiki .h5 {
