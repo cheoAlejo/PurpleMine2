@@ -315,7 +315,7 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border: 0;
-	border-top: 1px solid #ababab
+	border-top: 1px solid #f4f4f4;
 }
 abbr[title] {
 	border-bottom: 1px dotted #ababab;
@@ -1587,7 +1587,7 @@ tr.priority-default a:hover {
 }
 .issue.details.priority-default,
 .issue.details.priority-default hr {
-	border-color: #ccc
+	border-color: #f4f4f4;
 }
 .issue.details.priority-default a {
 	
