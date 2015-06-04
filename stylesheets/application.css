@@ -5556,7 +5556,8 @@ table.list th.checkbox>a img {
 	box-shadow: none
 }
 #main-menu a {
-	color: #2c2c2c
+	color: #2c2c2c;
+	font-size: 0.94em;
 }
 .box .jstElements {
 	padding: 0
@@ -6213,7 +6214,7 @@ div.topic h3.subject
 	clear: both;
 	font-family: 'Open Sans', Arial;
 	font-size: 1.02em;
-	color: #333;
+	color: #707070;
 	font-weight: bold;
 }
 
@@ -6373,4 +6374,10 @@ fieldset.collapsible div {
   font-family: 'Open Sans', Arial;
   font-size: 0.9em;
   color: #888;
+}
+
+
+#sidebar li a {
+  font-family: 'Open Sans';
+  font-size: 0.92em;
 }
