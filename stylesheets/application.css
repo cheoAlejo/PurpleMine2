@@ -5411,7 +5411,7 @@ table.list th.checkbox>a img {
 #top-menu {
 	position: relative;
 	padding: 7px 20px;
-	background: #4F6EA5;
+	background: #2D5FBA;
 	color: #C2CFE5;
 	font-size: 0.82em;
 }
@@ -5448,7 +5448,7 @@ table.list th.checkbox>a img {
 }
 #header {
 	position: relative;
-	background-color: #4F6EA5;
+	background-color: #2D5FBA;
 	color: #fff
 }
 #header>h1 {
@@ -5484,8 +5484,8 @@ table.list th.checkbox>a img {
 #quick-search input,
 #quick-search select {
 	margin-left: 5px;
-	border-color: #385B99;
-	background: #7390C3;
+	border-color: #2D5090;
+	background: #507DD0;
 	color: #deddef;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	-o-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
