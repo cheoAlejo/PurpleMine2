@@ -5484,8 +5484,8 @@ table.list th.checkbox>a img {
 #quick-search input,
 #quick-search select {
 	margin-left: 5px;
-	border-color: #2D5090;
-	background: #507DD0;
+	border-color: #294881;
+	background: #A9BFE8;
 	color: #deddef;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	-o-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
