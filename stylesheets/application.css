@@ -1196,14 +1196,7 @@ label.no-css {
 @media screen and (min-width: 1px) {
 	#sidebar {
 		padding-bottom: 60px;
-		background-image: -webkit-linear-gradient(#fff 1%, #d9d9d9 10%, #d9d9d9 85%, #fff);
-		background-image: -o-linear-gradient(#fff 1%, #d9d9d9 10%, #d9d9d9 85%, #fff);
-		background-image: linear-gradient(#fff 1%, #d9d9d9 10%, #d9d9d9 85%, #fff);
-		background-repeat: no-repeat;
-		background-size: 1px 100%;
 		padding-right: 21px;
-		background-position: right 0;
-		box-shadow: inset -9px 0 6px -6px rgba(0, 0, 0, 0.05);
 }
 }
 .nosidebar #sidebar {
