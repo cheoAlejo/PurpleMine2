@@ -691,7 +691,6 @@ fieldset {
 	margin: 0;
 	padding: 10px 0;
 	border: 0 none;
-	border-top: 1px solid #e5e5e5
 }
 legend {
 	padding-right: 5px;
@@ -1023,7 +1022,10 @@ fieldset#filters td.values select {
 fieldset#filters td.add-filter {
 	padding-top: 10px;
 	text-align: right;
-	vertical-align: top
+	vertical-align: top;
+	font-family: 'Open Sans', Arial;
+	font-size: 0.9em;
+	color: #888;
 }
 label.no-css {
 	width: auto;
@@ -1290,7 +1292,7 @@ table.list th {
   color: #FFF;
   vertical-align: bottom;
   border: 1px solid transparent;
-  background-color: cadetblue;
+  background-color: #748EBB;
 }
 table.list th a {
 	color: #FFF;
@@ -3750,20 +3752,19 @@ p.bg-danger {
 
 a.collapsible,
 .collapsible>legend {
-	cursor: pointer;
-	color: #fff;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	background-color: #8DA7D5;
-	padding: 7px 15px 5px 10px;
-	border-radius: 3px;
-	font-size: 0.88em;
+cursor: pointer;
+  color: #F09771;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 6px 15px 4px 10px;
+  border-radius: 4px;
+  border: 1px dashed #EDC1AE;
+  font-size: 0.84em;
 }
 
 a.collapsible:hover, .collapsible>legend:hover {
-	  background-color: #524580;
+	  border-style: solid;
 }
 a.collapsible:before, .collapsible>legend:before {
 	display: inline-block;
@@ -5411,7 +5412,7 @@ table.list th.checkbox>a img {
 #top-menu {
 	position: relative;
 	padding: 7px 20px;
-	background: #2D5FBA;
+	background: #3565BD;
 	color: #C2CFE5;
 	font-size: 0.82em;
 }
@@ -5448,7 +5449,7 @@ table.list th.checkbox>a img {
 }
 #header {
 	position: relative;
-	background-color: #2D5FBA;
+	background-color: #3565BD;
 	color: #fff
 }
 #header>h1 {
@@ -5485,7 +5486,7 @@ table.list th.checkbox>a img {
 #quick-search select {
 	margin-left: 5px;
 	border-color: #294881;
-	background: #A9BFE8;
+	background: #D2DEF4;
 	color: #deddef;
 	border-radius: 3px;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
@@ -6337,4 +6338,38 @@ a.icon.icon-vote {
 #sidebar #taglist li>a.tag {
   display: inline-block;
   margin-left: 40px;
+}
+
+
+a.icon.icon-checked {
+  background-color: #50A550;
+}
+
+
+a.icon.icon-checked:hover {
+  background-color: #266B26;
+}
+
+
+a.icon.icon-reload {
+  background-color: #F08080;
+}
+
+
+a.icon.icon-reload:hover {
+  background-color: #C56969;
+}
+
+
+table#filters-table {
+  font-size: 0.9em;
+  font-family: 'Open sans', Arial;
+  color: #888;
+}
+
+
+fieldset.collapsible div {
+  font-family: 'Open Sans', Arial;
+  font-size: 0.9em;
+  color: #888;
 }
