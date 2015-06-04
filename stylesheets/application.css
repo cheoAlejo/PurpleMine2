@@ -5487,6 +5487,7 @@ table.list th.checkbox>a img {
 	border-color: #294881;
 	background: #A9BFE8;
 	color: #deddef;
+	border-radius: 3px;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	-o-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s
