@@ -1229,14 +1229,17 @@ label.no-css {
 	list-style-type: none
 }
 #sidebar li>a {
-	display: block;
-	padding: 6px 20px;
-	border: 1px solid transparent;
-	border-left-width: 3px;
-	border-radius: 4px 0 0 4px
+  display: block;
+  padding: 6px 20px;
+  border: 1px solid transparent;
+  border-left-width: 3px;
+  border-radius: 4px 0 0 4px;
+  color: #6B657C;
+  font-family: 'Open Sans', Arial;
+  font-size: 0.92em;
 }
 #sidebar li>a:hover {
-	background-color: whitesmoke;
+	background-color: #D9E3F7;
 	text-decoration: none
 }
 #sidebar li>a.selected {
@@ -5942,9 +5945,12 @@ table.list td {
 	position: relative
 }
 #sidebar {
-	-webkit-transition: margin .5s;
-	-o-transition: margin .5s;
-	transition: margin .5s
+  -webkit-transition: margin .5s;
+  -o-transition: margin .5s;
+  transition: margin .5s;
+  background-color: #FCFCFC;
+  border-right: 1px dashed;
+  border-color: #CCC;
 }
 #sidebar.sidebar-hiding {
 	margin-left: -270px
@@ -6212,6 +6218,10 @@ div.topic h3.subject
 
 #sidebar h3 {
 	clear: both;
+	font-family: 'Open Sans', Arial;
+	font-size: 1.02em;
+	color: #333;
+	font-weight: bold;
 }
 
 
