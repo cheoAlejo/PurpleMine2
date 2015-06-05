@@ -2622,20 +2622,27 @@ span.private {
 }
 }
 #issue-changesets div.changeset {
-	margin-top: 14px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	background-color: #f9f9f9;
-	font-size: 0.92em;
-	overflow: hidden
+  margin-top: 14px;
+  border: 1px dashed #bbb;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  font-size: 0.9em;
+  overflow: hidden;
+  height: 200px;
+  padding-bottom: 16px;
 }
 #issue-changesets div.changeset: first-of-type {
 	margin-top: 0
 }
 #issue-changesets div.changeset>p {
-	margin: 0;
-	padding: 6px 12px;
-	color: #808080
+  margin: 0;
+  padding: 6px 12px 6px 44px;
+  color: #59767F;
+  background-image: url(https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position-x: 7px;
+  background-position-y: center;
 }
 #issue-changesets div.changeset>p:before, #issue-changesets div.changeset>p:after {
 	display: table;
@@ -2645,13 +2652,12 @@ span.private {
 	clear: both
 }
 #issue-changesets div.changeset>p>a {
-	margin-left: .5em;
-	float: right;
-	font-family: Consolas, "Liberation Mono", Menlo, "Courier New", Courier, monospace;
-	font-weight: bold
+  font-family: Consolas, monospace, "Liberation Mono", Menlo, "Courier New", Courier;
+  margin-right: .8em;
+  color: #59767F;
 }
 #issue-changesets div.changeset>p .author a {
-	color: #2c2c2c
+	color: #6495ED;
 }
 #issue-changesets div.changeset>p .author a.user {
 	font-weight: bold
@@ -2660,9 +2666,12 @@ span.private {
 	display: none
 }
 #issue-changesets div.changeset>.wiki {
-	padding: 6px 12px;
-	border-top: 1px solid #e5e5e5;
-	background-color: #fff
+  padding: 6px 12px;
+  border-top: 1px dashed #ccc;
+  background-color: #fff;
+  font-size: 1em;
+  font-family: Consolas, monospace;
+  color: #888;
 }
 #login-form {
 	margin: 40px auto
@@ -6386,4 +6395,11 @@ fieldset.collapsible div {
 #quick-search a {
   font-family: 'Open Sans';
   font-size: 0.9em;
+}
+
+
+#issue-changesets .changeset span.author {
+  font-size: 0.92em;
+  font-family: Consolas, monospace;
+  color: #EA6F24;
 }
