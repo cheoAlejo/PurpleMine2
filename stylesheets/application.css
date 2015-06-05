@@ -345,8 +345,8 @@ button {
 	font-weight: normal;
 	text-align: center;
 	white-space: nowrap;
-	padding: 5px 18px 5px 14px;
-	font-size: 0.96em;
+	padding: 5px 18px 6px 14px;
+	font-size: 0.84em;
 	 line-height: 1.428571429; 
 	border-radius: 4px;
 	-webkit-user-select: none;
