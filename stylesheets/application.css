@@ -6470,7 +6470,7 @@ fieldset legend {
 }
 
 
-#update fieldset label {
+fieldset label {
   font-family: 'Open Sans', Arial;
 }
 
