@@ -2680,8 +2680,8 @@ span.private {
   font-size: 1em;
   font-family: Consolas, monospace;
   color: #909090;
-  max-height: 110px;
-  overflow: auto;
+  max-height: 100px;
+  overflow: hidden;
   line-height: 1.5em;
 }
 #login-form {
@@ -6496,4 +6496,14 @@ fieldset label {
   font-family: 'Open Sans', Arial;
   font-weight: bold;
   color: rgb(144, 156, 178);
+}
+
+
+#issue-changesets div.changeset>.wiki>p {
+  display: none;
+}
+
+
+#issue-changesets div.changeset>.wiki>p:first-child {
+  display: block;
 }
