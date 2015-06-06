@@ -2615,8 +2615,9 @@ span.private {
 @media screen and (min-width: 992px) {
 	#issue-changesets {
 		width: 45%;
-		margin-left: 20px;
+		margin-left: 40px;
 		float: right;
+		margin-bottom: 36px;
 }
 }
 @media screen and (min-width: 1200px) {
