@@ -6471,6 +6471,7 @@ fieldset legend {
 
 
 #update fieldset label {
+  font-family: 'Open Sans', Arial;
   font-weight: bold;
   color: rgb(144, 156, 178);
 }
