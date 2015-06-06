@@ -6328,6 +6328,13 @@ a.icon.icon-vote {
   margin: 4px;
   padding: 4px 14px 3px 30px;
   border-radius: 4px;
+  color: white;
+  font-family: Arial;
+  font-size: 0.87em;
+}
+
+#sidebar #options .icon:hover {
+  background-color: #51A551;
 }
 
 
