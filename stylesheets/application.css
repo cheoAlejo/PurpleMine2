@@ -2622,13 +2622,11 @@ span.private {
 }
 }
 #issue-changesets div.changeset {
-  margin-top: 14px;
+  margin-top: 20px;
   border: 1px dashed #bbb;
   border-radius: 3px;
-  background-color: #f7f7f7;
   font-size: 0.9em;
-  overflow: hidden;
-  max-height: 200px;
+  padding-bottom: 10px;
 }
 #issue-changesets div.changeset: first-of-type {
 	margin-top: 0
@@ -2642,6 +2640,7 @@ span.private {
   background-size: 30px 30px;
   background-position-x: 7px;
   background-position-y: center;
+  background-color: #f6f6f6;
 }
 #issue-changesets div.changeset>p:before, #issue-changesets div.changeset>p:after {
 	display: table;
@@ -2671,6 +2670,8 @@ span.private {
   font-size: 1em;
   font-family: Consolas, monospace;
   color: #888;
+  max-height: 160px;
+  overflow: hidden;
 }
 #login-form {
 	margin: 40px auto
