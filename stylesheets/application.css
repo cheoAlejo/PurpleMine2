@@ -2623,10 +2623,11 @@ span.private {
 }
 #issue-changesets div.changeset {
   margin-top: 20px;
+  margin-bottom: 30px;
   border: 1px dashed #bbb;
   border-radius: 3px;
   font-size: 0.9em;
-  padding-bottom: 8px;
+  padding-bottom: 6px;
   background-color: white;
 }
 #issue-changesets div.changeset: first-of-type {
@@ -2665,14 +2666,15 @@ span.private {
 	display: none
 }
 #issue-changesets div.changeset>.wiki {
-  padding: 6px 12px;
+  padding: 8px 12px;
   border-top: 1px dashed #ccc;
   background-color: #fff;
   font-size: 1em;
   font-family: Consolas, monospace;
-  color: #888;
-  max-height: 160px;
-  overflow: hidden;
+  color: #909090;
+  max-height: 110px;
+  overflow: auto;
+  line-height: 1.5em;
 }
 #login-form {
 	margin: 40px auto
