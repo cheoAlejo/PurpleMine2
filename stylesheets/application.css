@@ -6463,13 +6463,14 @@ div#update {
 
 
 fieldset legend {
+  font-family: 'Open Sans', Arial;
   color: rgb(87, 129, 207);
   font-weight: bold;
   font-size: 1.2em;
 }
 
 
-fieldset label {
+#update fieldset label {
   font-weight: bold;
   color: rgb(144, 156, 178);
 }
