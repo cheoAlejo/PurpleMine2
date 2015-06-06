@@ -2422,7 +2422,8 @@ div.thumbnails img {
 	margin-right: 5px
 }
 #history {
-	overflow: auto
+	overflow: auto;
+	margin-top: 50px;
 }
 #history>.tabs {
 	margin-bottom: 24px
@@ -2463,8 +2464,9 @@ div.thumbnails img {
 	display: none
 }
 .journal>div {
-	border: 1px solid #ccc;
-	border-radius: 3px
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: 'Open Sans', Arial;
 }
 .journal>div: target {
 	border-color: #8c8c8c
@@ -2481,13 +2483,14 @@ div.thumbnails img {
 	font-size: 0.92em
 }
 .journal h4 a {
-	color: #2c2c2c
+	color: #769DE4;
 }
 .journal h4 a.user {
 	font-weight: bold
 }
 .journal h4 .journal-link {
-	color: #808080
+  color: #BABABA;
+  font-size: 0.86em;
 }
 .journal h4 {
 	position: relative
@@ -2551,8 +2554,9 @@ div.thumbnails img {
 }
 .journal .wiki,
 .journal form {
-	padding: 15px;
-	border-top: 1px solid #e5e5e5
+  padding: 6px 15px 6px 15px;
+  border-top: 1px dashed #d9d9d9;
+  font-size: 0.9em;
 }
 .journal form {
 	padding-top: 5px;
@@ -2606,7 +2610,7 @@ span.private {
 	text-transform: uppercase
 }
 #issue-changesets {
-	margin-bottom: 20px
+	margin-bottom: 30px;
 }
 @media screen and (min-width: 992px) {
 	#issue-changesets {
@@ -6408,3 +6412,27 @@ fieldset.collapsible div {
   display: block;
   padding-top: 2px;
 }
+
+
+div#issue-changesets h3 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #DF5E47;
+  font-size: 1.4em;
+}
+
+
+div#history h3 {
+  font-family: 'Open Sans';
+  color: rgb(87, 129, 207);
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+
+#history div.wiki {
+  font-size: 0.9em;
+}
+
+
+
