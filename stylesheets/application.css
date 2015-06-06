@@ -2269,7 +2269,7 @@ table.files tr.file td.digest {
 .issue.details>.author {
 	margin-bottom: 20px;
 	font-size: 0.9em;
-	color: #AAA;
+	color: #EA6F24;
 }
 .issue.details>hr {
 	margin: 15px -15px;
@@ -2298,7 +2298,7 @@ table.files tr.file td.digest {
 }
 .issue .attributes>tbody>tr th {
   font-weight: bold;
-  color: #BD6E4B;
+  color: rgb(144, 156, 178);
 }
 .issue .attributes>tbody>tr td {
 	color: #888686
