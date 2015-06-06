@@ -2626,7 +2626,8 @@ span.private {
   border: 1px dashed #bbb;
   border-radius: 3px;
   font-size: 0.9em;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
+  background-color: white;
 }
 #issue-changesets div.changeset: first-of-type {
 	margin-top: 0
