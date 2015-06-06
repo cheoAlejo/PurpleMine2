@@ -2233,7 +2233,8 @@ table.files tr.file td.digest {
 	border-radius: 3px;
 	background-color: #f9f9f9;
 	color: #555555;
-	word-wrap: break-word
+	word-wrap: break-word;
+	font-family: 'Open Sans', Arial;
 }
 .issue.details>img.gravatar {
 	width: 50px;
