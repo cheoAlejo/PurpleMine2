@@ -6507,3 +6507,31 @@ fieldset label {
 #issue-changesets div.changeset>.wiki>p:first-child {
   display: block;
 }
+
+
+.action-revision p {
+  font-family: 'Consolas', Arial;
+  line-height: 1.8em;
+  color: #848FA3;
+}
+
+
+.action-revision .author {
+  color: rgb(208, 101, 11);
+  font-family: 'Open Sans', Arial;
+}
+
+
+.action-revision #content p:first-of-type {
+  margin-bottom: 30px;
+  border-bottom: 1px dashed #CFC6E5;
+}
+
+
+.action-revision h3 {
+  font-family: 'Open Sans', Arial;
+  color: rgb(87, 129, 207);
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 50px;
+}
