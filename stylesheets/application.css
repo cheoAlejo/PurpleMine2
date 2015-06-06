@@ -3869,7 +3869,8 @@ fieldset.collapsible.collapsed>div {
 	border-radius: 3px;
 	background-color: #f5f5f5;
 	color: #555;
-	word-wrap: break-word
+	word-wrap: break-word;
+	font-family: 'Open Sans', Arial;
 }
 .ui-dialog-content .box {
 	padding: 0;
@@ -6476,6 +6477,22 @@ fieldset label {
 
 
 #update fieldset label {
+  font-family: 'Open Sans', Arial;
+  font-weight: bold;
+  color: rgb(144, 156, 178);
+}
+
+
+.new_issue a#get-url-link {
+  background-color: transparent;
+  color: #ccc;
+  font-size: 0.8em;
+  margin-left: 50px;
+  padding-left: 21px;
+}
+
+
+.new_issue label {
   font-family: 'Open Sans', Arial;
   font-weight: bold;
   color: rgb(144, 156, 178);
