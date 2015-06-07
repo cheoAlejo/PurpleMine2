@@ -6291,6 +6291,16 @@ a.icon.icon-attachment {
 }
 
 
+.filename_no_report .icon.icon-folder {
+  background-color: transparent;
+  padding: 7px 14px 7px 20px;
+  border-radius: 0;
+  font-size: 1.08em;
+  color: rgb(90, 118, 168);
+}
+
+
+
 a.icon.icon-vote {
   background-position-x: 8px;
 }
