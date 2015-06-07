@@ -1509,9 +1509,10 @@ tr.entry td.age {
 }
 tr.entry.file td.filename a,
 tr.entry.file td.filename_no_report a {
-	margin-left: 16px;
-	background-color: transparent;
-	color: #555;
+  margin-left: 16px;
+  background-color: transparent;
+  color: #555;
+  font-size: 1em;
 }
 tr.priority-lowest {
 }
@@ -2644,7 +2645,7 @@ span.private {
 #issue-changesets div.changeset>p {
   margin: 0;
   padding: 6px 12px 6px 44px;
-  color: #59767F;
+  color: transparent;
   background-image: url(../images/git-logo.png);
   background-repeat: no-repeat;
   background-size: 30px 30px;
@@ -2661,7 +2662,7 @@ span.private {
 }
 #issue-changesets div.changeset>p>a {
   font-family: Consolas, monospace, "Liberation Mono", Menlo, "Courier New", Courier;
-  margin-right: .8em;
+  margin-right: .5em;
   color: #59767F;
 }
 #issue-changesets div.changeset>p .author a {
@@ -4042,9 +4043,12 @@ a.close-icon:hover {
 	border: 0 none
 }
 #browser td {
-	padding: 5px;
-	border: 0 none;
-	border-bottom: 1px solid #fafafa;
+  padding: 5px;
+  border: 0 none;
+  border-bottom: 1px solid #f9f9f9;
+  font-size: 0.84em;
+  color: #999;
+  font-family: Consolas, monospace;
 }
 ul.projects {
 	padding-left: 20px
@@ -6279,10 +6283,11 @@ a.icon.icon-attachment {
 
 
 .filename .icon.icon-folder {
-  color: inherit;
   background-color: transparent;
-  padding: 7px 14px 7px 30px;
+  padding: 7px 14px 7px 20px;
   border-radius: 0;
+  font-size: 1.08em;
+  color: rgb(90, 118, 168);
 }
 
 
@@ -6541,4 +6546,10 @@ fieldset label {
   font-weight: bold;
   font-size: 1.2em;
   margin-top: 50px;
+}
+
+
+tr.changeset {
+  font-size: 0.92em;
+  color: #888;
 }
