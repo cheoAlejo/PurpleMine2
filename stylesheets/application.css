@@ -3402,6 +3402,7 @@ div.wiki .h2 {
   line-height: 1.225;
   color: #2576B8;
   padding-top: 35px;
+  font-weight: normal;
 }
 div.wiki h3,
 div.wiki .h3 {
@@ -3409,20 +3410,24 @@ div.wiki .h3 {
   line-height: 1.43;
   color: #E26538;
   margin-top: 1.5em;
+  font-weight: normal;
 }
 div.wiki h4,
 div.wiki .h4 {
   font-size: 1.4em;
   color: #2D7C2D;
   margin-top: 1.2em;
+  font-weight: 600;
 }
 div.wiki h5,
 div.wiki .h5 {
 	font-size: 1em
+  font-weight: 600;
 }
 div.wiki h6,
 div.wiki .h6 {
 	font-size: 1em
+  font-weight: 600;
 }
 div.wiki h1,
 div.wiki .h1,
@@ -6357,6 +6362,7 @@ a.icon.icon-vote {
 
 
 #content h1 {
+	font-weight: normal;
 }
 
 
@@ -6574,4 +6580,9 @@ tr.changeset {
 
 
 #projects-index {
+}
+
+
+div#article {
+  margin-top: 30px;
 }
