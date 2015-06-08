@@ -4725,6 +4725,7 @@ table.list .buttons>a:before {
 	border-radius: 4px;
 	font-size: 0.87em;
 	text-shadow: none;
+	font-family: Arial;
 }
 
 .icon:focus, .icon:hover 
