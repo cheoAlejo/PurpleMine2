@@ -323,7 +323,7 @@ dl {
 }
 dt {
 	margin-top: 20px;
-	font-weight: bold
+	font-weight: 600;
 }
 dd {
 	margin-bottom: 20px;
@@ -2183,11 +2183,12 @@ table.files tr.file td.digest {
 }
 #activity h3,
 #activity h4 {
-	margin: 0 0 20px;
-	padding-bottom: .2em;
-	border-bottom: 1px dotted #ababab;
-	font-size: 1.286em;
-	font-weight: normal
+  margin: 50px 0 20px 0;
+  padding-bottom: .2em;
+  border-bottom: 1px dashed #E7BFB8;
+  font-size: 1.286em;
+  font-weight: normal;
+  color: #DF5E47;
 }
 #activity dt.grouped {
 	margin-left: 49px
@@ -2201,7 +2202,9 @@ table.files tr.file td.digest {
 #activity dt .gravatar {
 	margin-top: -2px;
 	margin-right: 5px;
-	float: left
+	float: left;
+	width: 44px;
+	height: 44px;
 }
 #activity dd {
 	font-size: 0.86em;
@@ -2620,7 +2623,8 @@ div.thumbnails img {
 }
 #activity dt,
 .journal {
-	clear: left
+	clear: left;
+	margin-top: 50px;
 }
 .journal-link {
 	float: right
