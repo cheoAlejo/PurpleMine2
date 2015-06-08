@@ -280,7 +280,6 @@ h2 {
   font-size: 2em;
   font-weight: 400;
   line-height: 20px;
-  font-family: 'Open Sans', Verdana, sans-serif;
 }
 h2 img {
 	vertical-align: middle
@@ -1049,7 +1048,6 @@ fieldset#filters td.add-filter {
 	padding-top: 10px;
 	text-align: right;
 	vertical-align: top;
-	font-family: 'Open Sans', Arial;
 	color: #888;
 }
 label.no-css {
@@ -1254,7 +1252,6 @@ label.no-css {
   border-left-width: 3px;
   border-radius: 4px 0 0 4px;
   color: #6B657C;
-  font-family: 'Open Sans', Arial;
   font-size: 0.92em;
 }
 #sidebar li>a:hover {
@@ -2261,7 +2258,6 @@ table.files tr.file td.digest {
 	background-color: #f9f9f9;
 	color: #555555;
 	word-wrap: break-word;
-	font-family: 'Open Sans', Arial;
 }
 .issue.details>img.gravatar {
 	width: 50px;
@@ -2496,7 +2492,6 @@ div.thumbnails img {
 .journal>div {
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-family: 'Open Sans', Arial;
 }
 .journal>div: target {
 	border-color: #8c8c8c
@@ -3370,7 +3365,6 @@ p.progress-info {
 div.wiki {
   color: #606060;
   line-height: 2em;
-  font-family: 'Open Sans', Arial;
   font-size: 1.1em;
 }
 div.wiki h1,
@@ -3394,7 +3388,6 @@ div.wiki h1,
 div.wiki .h1 {
   font-size: 2.4em;
   line-height: 1.2;
-  font-family: 'Open Sans', 'Arial';
   color: #556790;
   border-bottom: 1px solid #f5f5f5;
   padding-top: 35px;
@@ -3897,7 +3890,6 @@ fieldset.collapsible.collapsed>div {
 	background-color: #f5f5f5;
 	color: #555;
 	word-wrap: break-word;
-	font-family: 'Open Sans', Arial;
 }
 .ui-dialog-content .box {
 	padding: 0;
@@ -5506,7 +5498,7 @@ table.list th.checkbox>a img {
 	background-position: 16px 6px;
 	font-weight: 300;
 	font-size: 2.4em;
-	font-family: 'Open Sans', Trebuchet MS, Verdana, sans-serif;
+	font-family: 'Open Sans', 'Cabin', Verdana, sans-serif;
 	background-size: 46px 44px;
 }
 #header>h1>.root {
@@ -6264,10 +6256,9 @@ div.topic h3.subject
 
 #sidebar h3 {
 	clear: both;
-	font-family: 'Open Sans', Arial;
 	font-size: 1.02em;
 	color: #707070;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 
@@ -6361,7 +6352,6 @@ a.icon.icon-vote {
 
 
 #content h1 {
-  font-family: 'Open Sans', Arial;
 }
 
 
@@ -6435,26 +6425,22 @@ a.icon.icon-reload:hover {
 
 
 table#filters-table {
-  font-family: 'Open sans', Arial;
   color: #888;
 }
 
 
 fieldset.collapsible div {
-  font-family: 'Open Sans', Arial;
   font-size: 0.9em;
   color: #888;
 }
 
 
 #sidebar li a {
-  font-family: 'Open Sans';
   font-size: 0.92em;
 }
 
 
 #quick-search a {
-  font-family: 'Open Sans';
   font-size: 0.9em;
 }
 
@@ -6469,17 +6455,15 @@ fieldset.collapsible div {
 
 
 div#issue-changesets h3 {
-  font-family: 'Open Sans';
-  font-weight: bold;
+  font-weight: 600;
   color: #DF5E47;
   font-size: 1.4em;
 }
 
 
 div#history h3 {
-  font-family: 'Open Sans';
   color: rgb(87, 129, 207);
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.4em;
 }
 
@@ -6490,7 +6474,6 @@ div#history h3 {
 
 
 .issue.details .tag-label-color a {
-  font-family: Arial;
 }
 
 
@@ -6508,26 +6491,22 @@ div#history h3 {
 
 
 div#update {
-  font-family: 'Open Sans', Arial;
 }
 
 
 fieldset legend {
-  font-family: 'Open Sans', Arial;
   color: rgb(87, 129, 207);
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2em;
 }
 
 
 fieldset label {
-  font-family: 'Open Sans', Arial;
 }
 
 
 #update fieldset label {
-  font-family: 'Open Sans', Arial;
-  font-weight: bold;
+  font-weight: 600;
   color: rgb(144, 156, 178);
 }
 
@@ -6542,8 +6521,7 @@ fieldset label {
 
 
 .new_issue label {
-  font-family: 'Open Sans', Arial;
-  font-weight: bold;
+  font-weight: 600;
   color: rgb(144, 156, 178);
 }
 
@@ -6567,7 +6545,6 @@ fieldset label {
 
 .action-revision .author {
   color: rgb(208, 101, 11);
-  font-family: 'Open Sans', Arial;
 }
 
 
@@ -6578,9 +6555,8 @@ fieldset label {
 
 
 .action-revision h3 {
-  font-family: 'Open Sans', Arial;
   color: rgb(87, 129, 207);
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2em;
   margin-top: 50px;
 }
@@ -6593,5 +6569,4 @@ tr.changeset {
 
 
 #projects-index {
-  font-family: 'Open Sans', Arial;
 }
