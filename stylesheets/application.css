@@ -64,7 +64,8 @@
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%
+	-webkit-text-size-adjust: 100%;
+	font-size: 92%;
 }
 body {
 	margin: 0
@@ -247,7 +248,6 @@ body {
 	color: #555555;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: normal;
-	font-size: 14px;
 	line-height: 1.428571429
 }
 
@@ -4716,7 +4716,7 @@ table.list .buttons>a:before {
 	background-color: cornflowerblue;
 	padding: 7px 14px 7px 30px;
 	border-radius: 4px;
-	font-size: 0.87em;
+	font-size: 0.8rem;
 	text-shadow: none;
 	font-family: Arial;
 }
