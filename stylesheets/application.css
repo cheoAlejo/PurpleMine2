@@ -245,7 +245,7 @@ body {
 	padding: 0;
 	background-color: #fff;
 	color: #555555;
-	font-family: "Helvetica Neue", Helvetica, Arial, freesans, sans-serif;
+	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.428571429
@@ -254,6 +254,7 @@ body {
 a {
 	color: #6A599B;
 	text-decoration: none;
+	font-family: Arial;
 }
 a:hover, a:focus {
 	color: #3269a0;
