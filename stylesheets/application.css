@@ -6494,7 +6494,7 @@ div#history h3 {
 
 
 #update h3 {
-  font-weight: bold;
+  font-weight: 600;
   color: #DF5E47;
   font-size: 1.6em;
   margin-top: 30px;
@@ -6585,4 +6585,11 @@ tr.changeset {
 
 div#article {
   margin-top: 30px;
+}
+
+
+.box h3 {
+  color: rgb(87, 129, 207);
+  font-weight: 600;
+  font-size: 1.4em;
 }
