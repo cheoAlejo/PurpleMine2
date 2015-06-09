@@ -4102,7 +4102,7 @@ ul.projects li {
 	font-weight: normal;
 }
 #projects-index ul.projects a.project.child {
-	  color: #C57E65;
+	  color: #35A5E0;
 	  font-weight: normal;
 }
 
@@ -4114,6 +4114,12 @@ ul.projects li {
 
 #projects-index div.root {
   margin-top: 50px;
+}
+
+#projects-index .description {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #aaa;
 }
 
 #custom_field_tracker_ids label {
