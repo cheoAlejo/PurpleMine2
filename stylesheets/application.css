@@ -4114,6 +4114,9 @@ ul.projects li {
 
 #projects-index div.root {
   margin-top: 50px;
+  border-top: 1px dashed;
+  border-color: rgb(230, 230, 231);
+  padding-top: 4px;
 }
 
 #projects-index .description {
@@ -6615,7 +6618,7 @@ div#article {
 
 
 h3.version {
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin-top: 50px;
   border-top: 1px dashed;
   border-color: #E0E6EA;
