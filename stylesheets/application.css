@@ -6612,3 +6612,18 @@ div#article {
   font-weight: 600;
   font-size: 1.4em;
 }
+
+
+h3.version {
+  font-size: 1.5em;
+  margin-top: 50px;
+  border-top: 1px dashed;
+  border-color: #E0E6EA;
+  padding-top: 14px;
+  color: #2576B8;
+}
+
+h3.version a {
+  color: #E26538;
+}
+
