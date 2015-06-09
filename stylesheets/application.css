@@ -4089,7 +4089,7 @@ ul.projects li {
 	list-style-type: none
 }
 #projects-index ul.projects ul.projects {
-	border-left: 2px solid #d9d9d9
+	border-left: 1px dashed #CFD3DA;
 }
 #projects-index ul.projects li.root {
 	margin-bottom: 20px
@@ -4098,12 +4098,24 @@ ul.projects li {
 	margin-top: 10px
 }
 #projects-index ul.projects a.project {
-	font-size: 1.5em;
-	font-weight: bold
+	font-size: 1.4em;
+	font-weight: normal;
 }
 #projects-index ul.projects a.project.child {
-	font-weight: normal
+	  color: #C57E65;
+	  font-weight: normal;
 }
+
+#projects-index ul.projects a.project.root {
+  color: #2576B8;
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+#projects-index div.root {
+  margin-top: 50px;
+}
+
 #custom_field_tracker_ids label {
 	margin-right: 10px
 }
