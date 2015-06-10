@@ -5483,9 +5483,10 @@ table.list th.checkbox>a img {
 #top-menu {
 	position: relative;
 	padding: 7px 20px;
-	background: #3565BD;
-	color: #C2CFE5;
+	background: #4C5164;
+	color: #7E859E;
 	font-size: 0.82em;
+	border-bottom: none;
 }
 #top-menu ul {
 	margin: 0;
@@ -5499,7 +5500,7 @@ table.list th.checkbox>a img {
 	list-style-type: none
 }
 #top-menu a {
-  color: #92B3EC;
+  color: #7E859E;
   font-weight: 600;
   margin-right: 10px;
 }
@@ -5520,7 +5521,7 @@ table.list th.checkbox>a img {
 }
 #header {
 	position: relative;
-	background-color: #3565BD;
+	background-color: #4C5164;
 	color: #fff
 }
 #header>h1 {
@@ -5556,8 +5557,8 @@ table.list th.checkbox>a img {
 #quick-search input,
 #quick-search select {
 	margin-left: 5px;
-	border-color: #294881;
-	background: #D2DEF4;
+	border-color: #2E313D;
+	background: #8F9199;
 	color: #deddef;
 	border-radius: 3px;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
@@ -5632,7 +5633,7 @@ table.list th.checkbox>a img {
 	box-shadow: none
 }
 #main-menu a {
-	color: #29395C;
+	color: #484D5F;
 	font-size: 0.94em;
 }
 .box .jstElements {
