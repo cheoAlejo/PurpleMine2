@@ -363,28 +363,26 @@ blockquote>: last-child {
 input[type="button"],
 input[type="submit"],
 button {
-	display: inline-block;
-	margin-bottom: 0;
-	border: 1px solid;
-	cursor: pointer;
-	font-weight: normal;
-	text-align: center;
-	white-space: nowrap;
-	padding: 5px 18px 6px 14px;
-	font-size: 0.84em;
-	 line-height: 1.428571429; 
-	border-radius: 4px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	/* -webkit-transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s; */
-	-o-transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s;
-	/* transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s; */
-	color: #fff;
-	/* border-color: #2a8ee0; */
-	background-color: #816BC0;
-	/* box-shadow: 0 1px 0 #2a8ee0; */
+  display: inline-block;
+  margin-bottom: 0;
+  border: 1px solid;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  padding: 7px 17px 6px 14px;
+  font-size: 0.84em;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-transition: background-color ease-in-out .07s, border-color ease-in-out .07s, box-shadow ease-in-out .07s;
+  color: #fff;
+  background-color: #816BC0;
+  font-family: Arial;
+  font-size: 12px;
 }
 
 input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, button:hover, button:focus {
