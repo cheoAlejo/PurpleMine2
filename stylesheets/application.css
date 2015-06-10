@@ -6661,3 +6661,13 @@ h3.version a {
   color: rgb(84, 117, 181);
 }
 
+a.my-account:hover {
+  border-style: solid;
+}
+
+a.my-account {
+  border: 1px dashed;
+  padding: 3px 10px 4px 10px;
+  border-radius: 4px;
+}
+
