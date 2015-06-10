@@ -6411,6 +6411,11 @@ a.icon.icon-vote {
   font-family: Arial;
 }
 
+#sidebar #taglist a:hover {
+  text-decoration: none;
+  background-color: #579B57;
+}
+
 
 .jstb_ext_submenu.jstb_coderay_submenu {
   position: absolute;
