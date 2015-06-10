@@ -370,10 +370,10 @@ button {
   font-weight: normal;
   text-align: center;
   white-space: nowrap;
-  padding: 7px 17px 6px 14px;
+  padding: 7px 17px 5px 14px;
   font-size: 0.84em;
   line-height: 1.428571429;
-  border-radius: 4px;
+  border-radius: 5px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
