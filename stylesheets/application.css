@@ -6403,11 +6403,12 @@ a.icon.icon-vote {
 
 #sidebar #taglist a {
   color: #fff;
-  background-color: #816BC0;
-  padding: 4px 8px 4px 7px;
-  border-radius: 3px;
-  font-size: 0.86em;
+  background-color: #DB65C8;
+  padding: 5px 8px 5px 8px;
+  border-radius: 4px;
+  font-size: 12px;
   border: none;
+  font-family: Arial;
 }
 
 
