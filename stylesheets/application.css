@@ -6644,3 +6644,7 @@ h3.version a {
   font-family: Arial;
 }
 
+#main .tag-label-color>a:hover {
+  text-decoration: none;
+  color: #ddd;
+}
