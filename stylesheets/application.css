@@ -6630,3 +6630,7 @@ h3.version a {
   color: #E26538;
 }
 
+.news.box>p {
+  margin-top: 30px;
+}
+
