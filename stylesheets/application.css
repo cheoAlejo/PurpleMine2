@@ -1338,8 +1338,7 @@ table.list td.tracker {
 	width: 2%
 }
 table.list td.id {
-	font-weight: bold;
-	text-align: right
+	text-align: right;
 }
 table.list td.estimated_hours,
 table.list td.remaining_hours,
@@ -1773,7 +1772,7 @@ a.issue,
 	border-radius: 3px;
 	background-color: #668;
 	color: #fff;
-	font-size: 0.85em;
+	font-size: 0.8em;
 }
 tr.issue .id>a:hover, a.issue:hover, .relations>span>a.issue:hover, .parent>a.issue:hover {
 	background-color: #50506b;
@@ -1815,7 +1814,7 @@ a.issue.closed:hover:after {
 }
 tr.issue .id>a {
   display: block;
-  padding: 5px 8px 4px 6px;
+  padding: 7px 7px 6px 5px;
   border-radius: 4px;
 }
 tr.issue .id>a:before {
@@ -4745,9 +4744,9 @@ table.list .buttons>a:before {
 	background-position: 0% 50%;
 	color: #FFFFFF;
 	background-color: cornflowerblue;
-	padding: 7px 14px 7px 30px;
+	padding: 8px 14px 7px 30px;
 	border-radius: 4px;
-	font-size: 0.8rem;
+	font-size: 12px;
 	text-shadow: none;
 	font-family: Arial;
 }
