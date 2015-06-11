@@ -1227,7 +1227,8 @@ label.no-css {
 	width: 0;
 	margin: 0;
 	padding: 0;
-	float: none
+	float: none;
+	display: none;
 }
 #sidebar h3 {
 	margin-top: 30px
