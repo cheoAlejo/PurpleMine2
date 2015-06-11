@@ -1209,12 +1209,13 @@ label.no-css {
 }
 #content {
 	padding: 20px;
-	overflow: hidden
+	overflow: hidden;
+	width: 100%;
 }
 #sidebar {
-	width: 229px;
+	min-width: 200px;
+	max-width: 229px;
 	padding: 20px 20px;
-	float: left
 }
 @media screen and (min-width: 1px) {
 	#sidebar {
@@ -6011,7 +6012,9 @@ table.list td {
 	margin-left: .5em
 }
 #main {
-	position: relative
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
 }
 #sidebar {
   -webkit-transition: margin .5s;
