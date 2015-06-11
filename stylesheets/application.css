@@ -1309,17 +1309,18 @@ table.list th {
   color: #FFF;
   vertical-align: bottom;
   border: 1px solid transparent;
-  background-color: #748EBB;
+  background-color: #888A91;
 }
 table.list th a {
 	color: #FFF;
+	font-weight: 600;
 }
 table.list td {
 	padding: 8px;
 	text-align: left;
 	vertical-align: middle;
-	border-bottom: 1px solid #F3F3F3;
-	border-left: 1px dashed #F3F3F3;
+	border-bottom: 1px solid #ECECEC;
+	border-left: 1px dashed #ECECEC;
 }
 table.list td.checkbox {
 	width: 15px;
