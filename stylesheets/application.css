@@ -6672,3 +6672,10 @@ a.my-account {
   border-radius: 4px;
 }
 
+tr.tracker-8 .id>a,
+a.tracker-8,
+.relations>span>a.tracker-8,
+.parent>a.tracker-8 {
+	background-color: #F08080;
+	color: #fff;
+}
