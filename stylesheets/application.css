@@ -6014,7 +6014,7 @@ table.list td {
 #main {
 	position: relative;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 }
 #sidebar {
   -webkit-transition: margin .5s;
