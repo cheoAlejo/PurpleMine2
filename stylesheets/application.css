@@ -6389,11 +6389,11 @@ a.icon.icon-vote {
 #sidebar #options .icon {
   display: inline-block;
   margin: 4px;
-  padding: 4px 14px 3px 30px;
+  padding: 4px 14px 1px 30px;
   border-radius: 4px;
   color: white;
   font-family: Arial;
-  font-size: 0.87em;
+  font-size: 12px;
 }
 
 #sidebar #options .icon:hover {
