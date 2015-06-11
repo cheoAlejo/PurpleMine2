@@ -1213,9 +1213,12 @@ label.no-css {
 	width: 100%;
 }
 #sidebar {
-	min-width: 200px;
-	max-width: 229px;
-	padding: 20px 20px;
+  width: 14.4%;
+  min-width: 8%;
+  max-width: 20%;
+  padding: 20px 12px;
+  overflow: auto;
+  resize: horizontal;
 }
 @media screen and (min-width: 1px) {
 	#sidebar {
