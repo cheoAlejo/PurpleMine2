@@ -7053,7 +7053,7 @@ div.git.box {
   color: #777;
 }
 
-a.documents:after {
+#main-menu a.documents:after {
   content: "Documentos";
   font-size: 12px;
   padding: 5px 20px;
@@ -7068,7 +7068,7 @@ a.documents:after {
   display: none;
 }
 
-a.documents:after {
+#main-menu a.documents:hover:after {
 	display: block;
 }
 
