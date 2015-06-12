@@ -7105,7 +7105,7 @@ div.git.box {
 }
 
 #main-menu a.dashboard:before {
-  content: "\f0db";
+  content: "\f181";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
