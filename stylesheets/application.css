@@ -6740,7 +6740,7 @@ a.my-account {
 a.my-account:before {
   content: "\f007";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 a.my-account:hover {
@@ -6754,7 +6754,7 @@ a.logout {
 a.logout:before {
   content: "\f0f4";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: rgb(237, 150, 98);
 }
 
@@ -6780,7 +6780,7 @@ div#loggedas {
 #top-menu a.home:before {
   content: "\f00a";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -6791,7 +6791,7 @@ div#loggedas {
 #top-menu a.my-page:before {
   content: "\f004";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -6802,7 +6802,7 @@ div#loggedas {
 #top-menu a.stats:before {
   content: "\f080";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -6813,7 +6813,7 @@ div#loggedas {
 #top-menu a.projects:before {
   content: "\f0ae";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -6824,7 +6824,7 @@ div#loggedas {
 #top-menu a.people:before {
   content: "\f0c0";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -6835,7 +6835,7 @@ div#loggedas {
 #top-menu a.administration:before {
   content: "\f085";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
