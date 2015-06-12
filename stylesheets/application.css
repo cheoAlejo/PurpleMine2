@@ -5603,7 +5603,7 @@ table.list th.checkbox>a img {
 	list-style: none
 }
 #main-menu ul>li {
-	margin-right: .5em;
+	margin-right: 2%;
 	float: left
 }
 #main-menu ul>li>a {
@@ -6932,6 +6932,7 @@ div.git.box {
   content: "\f0e8";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: #476947;
 }
 
 
@@ -6954,6 +6955,7 @@ div.git.box {
   content: "\f067";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: #37A137;
 }
 
 
@@ -6976,6 +6978,7 @@ div.git.box {
   content: "\f1d3";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: #DA5F3C;
 }
 
 
@@ -6987,6 +6990,7 @@ div.git.box {
   content: "\f1fe";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: rgb(135, 80, 135);
 }
 
 
@@ -6998,6 +7002,7 @@ div.git.box {
   content: "\f201";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: rgb(201, 142, 33);
 }
 
 
@@ -7009,6 +7014,7 @@ div.git.box {
   content: "\f0cb";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: rgb(133, 113, 174);
 }
 
 
@@ -7020,6 +7026,7 @@ div.git.box {
   content: "\f073";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+    color: rgb(68, 118, 119);
 }
 
 
@@ -7031,6 +7038,7 @@ div.git.box {
   content: "\f1ea";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: rgb(153, 84, 65);
 }
 
 
@@ -7053,6 +7061,7 @@ div.git.box {
   content: "\f0a2";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: #B85353;
 }
 
 
@@ -7097,6 +7106,7 @@ div.git.box {
   content: "\f02d";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+    color: rgb(109, 69, 21);
 }
 
 
@@ -7108,6 +7118,7 @@ div.git.box {
   content: "\f181";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: #1F77BE;
 }
 
 
