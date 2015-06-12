@@ -6749,3 +6749,19 @@ a.my-account:before {
 
 a.my-account:hover {
 }
+
+
+a.logout {
+	font-size: 0;
+}
+
+a.logout:before {
+  content: "\f08b";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+  color: rgb(237, 150, 98);
+}
+
+a.logout:before:hover {
+	color: white;
+}
