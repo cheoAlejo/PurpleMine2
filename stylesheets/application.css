@@ -6936,6 +6936,26 @@ div.git.box {
   color: #476947;
 }
 
+#main-menu a.overview:after {
+  content: "Resumen del proyecto";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.overview:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.activity {
 	font-size: 0;
@@ -6946,6 +6966,26 @@ div.git.box {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
 }
+
+#main-menu a.activity:after {
+  content: "Historial de actividades";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.activity:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.new-issue {
@@ -6959,6 +6999,26 @@ div.git.box {
   color: #37A137;
 }
 
+#main-menu a.new-issue:after {
+  content: "Nueva tarea";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.new-issue:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.roadmap {
 	font-size: 0;
@@ -6969,6 +7029,26 @@ div.git.box {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
 }
+
+#main-menu a.roadmap:after {
+  content: "Metas";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.roadmap:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.repository {
@@ -6982,6 +7062,26 @@ div.git.box {
   color: #DA5F3C;
 }
 
+#main-menu a.repository:after {
+  content: "Repositorio";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.repository:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.custom-reports {
 	font-size: 0;
@@ -6993,6 +7093,26 @@ div.git.box {
   font-size: 1.3rem;
   color: rgb(135, 80, 135);
 }
+
+#main-menu a.custom-reports:after {
+  content: "Reportes";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.custom-reports:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.gantt {
@@ -7006,6 +7126,26 @@ div.git.box {
   color: rgb(201, 142, 33);
 }
 
+#main-menu a.gantt:after {
+  content: "Diagrama de Gantt";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.gantt:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.issues {
 	font-size: 0;
@@ -7017,6 +7157,26 @@ div.git.box {
   font-size: 1.3rem;
   color: rgb(133, 113, 174);
 }
+
+#main-menu a.issues:after {
+  content: "Tareas";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.issues:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.calendar {
@@ -7030,6 +7190,26 @@ div.git.box {
     color: rgb(68, 118, 119);
 }
 
+#main-menu a.calendar:after {
+  content: "Calendario";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.calendar:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.news {
 	font-size: 0;
@@ -7041,6 +7221,26 @@ div.git.box {
   font-size: 1.3rem;
   color: #3E4B7F;
 }
+
+#main-menu a.news:after {
+  content: "Noticias";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.news:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.documents {
@@ -7086,6 +7286,26 @@ div.git.box {
   color: #B85353;
 }
 
+#main-menu a.issue-reminder:after {
+  content: "Alertas/Recordatorios";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.issue-reminder:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.settings {
 	font-size: 0;
@@ -7096,6 +7316,26 @@ div.git.box {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
 }
+
+#main-menu a.settings:after {
+  content: "Configurar";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.settings:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.wiki {
@@ -7108,6 +7348,26 @@ div.git.box {
   font-size: 1.3rem;
 }
 
+#main-menu a.wiki:after {
+  content: "Wiki";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.wiki:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.files {
 	font-size: 0;
@@ -7118,6 +7378,26 @@ div.git.box {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
 }
+
+#main-menu a.files:after {
+  content: "Archivos";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.files:hover:after {
+	display: block;
+}
+
 
 
 #main-menu a.articles {
@@ -7131,6 +7411,26 @@ div.git.box {
     color: #3E4B7F;
 }
 
+#main-menu a.articles:after {
+  content: "Biblioteca";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.articles:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.dashboard {
 	font-size: 0;
@@ -7143,6 +7443,26 @@ div.git.box {
   color: #1F77BE;
 }
 
+#main-menu a.dashboard:after {
+  content: "Tablero Kanban";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.dashboard:hover:after {
+	display: block;
+}
+
+
 
 #main-menu a.boards {
 	font-size: 0;
@@ -7153,6 +7473,26 @@ div.git.box {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
 }
+
+#main-menu a.boards:after {
+  content: "Foros";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+#main-menu a.boards:hover:after {
+	display: block;
+}
+
 
 
 
