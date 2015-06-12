@@ -6828,3 +6828,18 @@ div#loggedas {
 }
 
 
+#top-menu a.administration {
+	font-size: 0;
+}
+
+#top-menu a.administration:before {
+  content: "\f085";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+}
+
+
+#top-menu a.help {
+	font-size: 0;
+}
+
