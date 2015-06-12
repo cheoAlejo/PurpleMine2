@@ -7049,7 +7049,7 @@ div.git.box {
 	font-size: 0;
 }
 
-#main-menu a.issue-remainder:before {
+#main-menu a.issue-reminder:before {
   content: "\f0a2";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
