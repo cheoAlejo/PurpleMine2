@@ -6918,4 +6918,7 @@ div.git.box {
   padding-left: 50px;
   background-position-y: center;
   background-position-x: 10px;
+  border: none;
+  background-color: transparent;
+  float: right;
 }
