@@ -1213,10 +1213,10 @@ label.no-css {
 	width: 100%;
 }
 #sidebar {
-  width: 14.4%;
-  min-width: 8%;
-  max-width: 20%;
-  padding: 20px 12px;
+  width: 17%;
+  min-width: 10%;
+  max-width: 25%;
+  padding: 20px 14px;
   overflow: auto;
   resize: horizontal;
 }
