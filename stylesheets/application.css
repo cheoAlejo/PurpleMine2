@@ -6771,3 +6771,15 @@ div#loggedas a {
 div#loggedas {
   font-size: 0;
 }
+
+
+#top-menu a.home {
+	font-size: 0;
+}
+
+#top-menu a.home:before {
+  content: "\f015";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+}
+
