@@ -6933,3 +6933,114 @@ div.git.box {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
+
+
+#main-menu a.activity {
+	font-size: 0;
+}
+
+#main-menu a.activity:before {
+  content: "\f1da";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.new-issue {
+	font-size: 0;
+}
+
+#main-menu a.new-issue:before {
+  content: "\f067";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.roadmap {
+	font-size: 0;
+}
+
+#main-menu a.roadmap:before {
+  content: "\f11e";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.repository {
+	font-size: 0;
+}
+
+#main-menu a.repository:before {
+  content: "\f1d3";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.custom-reports {
+	font-size: 0;
+}
+
+#main-menu a.custom-reports:before {
+  content: "\f1fe";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.gantt {
+	font-size: 0;
+}
+
+#main-menu a.gantt:before {
+  content: "\f201";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.issues {
+	font-size: 0;
+}
+
+#main-menu a.issues:before {
+  content: "\f145";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.calendar {
+	font-size: 0;
+}
+
+#main-menu a.calendar:before {
+  content: "\f073";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.news {
+	font-size: 0;
+}
+
+#main-menu a.news:before {
+  content: "\f1ea";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.documents {
+	font-size: 0;
+}
+
+#main-menu a.documents:before {
+  content: "\f0f6";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
