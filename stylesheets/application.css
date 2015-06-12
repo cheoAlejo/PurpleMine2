@@ -6718,3 +6718,19 @@ tr.tracker-8 .id>a:hover, a.tracker-8:hover, .relations>span>a.tracker-8:hover, 
 .progress.box p.percent {
   color: rgb(66, 178, 66);
 }
+
+
+table.people.index td img.gravatar {
+  width: 44px;
+  height: 44px;
+}
+
+#people_list table.people.index td {
+  border: none;
+  padding-top: 20px;
+}
+
+#people_list table.people.index {
+  border: none;
+}
+
