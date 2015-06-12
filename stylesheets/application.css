@@ -6778,7 +6778,7 @@ div#loggedas {
 }
 
 #top-menu a.home:before {
-  content: "\f015";
+  content: "\f00a";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.1rem;
 }
