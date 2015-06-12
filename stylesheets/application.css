@@ -5117,7 +5117,9 @@ div.news h3:before {
 	content: "\f1ea"
 }
 div.projects h3:before {
-	content: "\f1b3"
+  content: "\f085";
+  color: rgb(222, 110, 97);
+  font-size: 1.5em;
 }
 dt.issue:before, dt.issue-edit:before, dt.issue.closed:before, dt.issue-closed:before, dt.issue-note:before, dt.changeset:before, dt.news:before, dt.message:before, dt.reply:before, dt.wiki-page:before, dt.attachment:before, dt.document:before, dt.project:before, dt.time-entry:before {
 	margin-left: -20px;
