@@ -6793,3 +6793,15 @@ div#loggedas {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.1rem;
 }
+
+
+#top-menu a.stats {
+	font-size: 0;
+}
+
+#top-menu a.stats:before {
+  content: "\f080";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+}
+
