@@ -7006,7 +7006,7 @@ div.git.box {
 }
 
 #main-menu a.issues:before {
-  content: "\f145";
+  content: "\f0cb";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
