@@ -7066,6 +7066,11 @@ div.git.box {
   position: absolute;
   top: -30px;
   left: 0;
+  display: none;
+}
+
+#main-menu a.documents:hover:after {
+	display: block;
 }
 
 
