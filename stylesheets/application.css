@@ -5525,10 +5525,10 @@ table.list th.checkbox>a img {
 	color: #fff
 }
 #header>h1 {
-	padding: 16px 0px 20px 70px;
+	padding: 20px 0px 16px 70px;
 	background-image: url("/images/delfinlogo.png");
 	background-repeat: no-repeat;
-	background-position: 16px 6px;
+	background-position: 16px 11px;
 	font-weight: 300;
 	font-size: 2.4em;
 	font-family: 'Open Sans', 'Cabin', Verdana, sans-serif;
@@ -5557,8 +5557,8 @@ table.list th.checkbox>a img {
 #quick-search input,
 #quick-search select {
 	margin-left: 5px;
-	border-color: #2E313D;
-	background: #8F9199;
+	border-color: #3E414A;
+	background: #5E6274;
 	color: #deddef;
 	border-radius: 3px;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
