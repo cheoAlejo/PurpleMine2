@@ -6752,7 +6752,7 @@ a.logout {
 }
 
 a.logout:before {
-  content: "\f08b";
+  content: "\f0f4";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.1rem;
   color: rgb(237, 150, 98);
