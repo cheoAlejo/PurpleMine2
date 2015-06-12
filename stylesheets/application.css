@@ -6817,3 +6817,14 @@ div#loggedas {
 }
 
 
+#top-menu a.people {
+	font-size: 0;
+}
+
+#top-menu a.people:before {
+  content: "\f0c0";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+}
+
+
