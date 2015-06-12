@@ -6783,3 +6783,13 @@ div#loggedas {
   font-size: 1.1rem;
 }
 
+
+#top-menu a.my-page {
+	font-size: 0;
+}
+
+#top-menu a.my-page:before {
+  content: "\f004";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+}
