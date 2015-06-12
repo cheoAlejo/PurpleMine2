@@ -6059,7 +6059,7 @@ table.list td {
 }
 .sidebar-toggler.sidebar-hidden:before {
   content: "\f065";
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #6B9F6B;
 }
 
