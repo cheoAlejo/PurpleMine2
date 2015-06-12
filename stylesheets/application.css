@@ -6764,7 +6764,7 @@ a.logout:before {
 	float: right;
 }
 
-div#loggedas {
+div#loggedas a {
 	font-size: 0.88rem;
 }
 
