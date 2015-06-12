@@ -6805,3 +6805,15 @@ div#loggedas {
   font-size: 1.1rem;
 }
 
+
+#top-menu a.projects {
+	font-size: 0;
+}
+
+#top-menu a.projects:before {
+  content: "\f0ae";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1rem;
+}
+
+
