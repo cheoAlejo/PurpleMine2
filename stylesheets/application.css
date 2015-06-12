@@ -7024,7 +7024,7 @@ div.git.box {
 }
 
 #main-menu a.roadmap:before {
-  content: "\f11e";
+  content: "\f135";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
 }
@@ -7191,7 +7191,7 @@ div.git.box {
   content: "\f073";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-    color: rgb(68, 118, 119);
+    color: #CB5757;
 }
 
 #main-menu a.calendar:after {
@@ -7254,7 +7254,7 @@ div.git.box {
 }
 
 #main-menu a.documents:before {
-  content: "\f0f6";
+  content: "\f07c";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
   color: #777;
