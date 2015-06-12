@@ -6846,12 +6846,15 @@ div#loggedas {
 
 
 #header .select2-container .select2-choice .select2-arrow {
-  display: inline-block;
+display: inline-block;
   width: 18px;
   height: 100%;
   position: absolute;
   right: 0;
   top: 0;
+  border:none;
+  background-image: none;
+  background-color: transparent;
 }
 
 
@@ -6885,6 +6888,7 @@ div#loggedas {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-image: none;
   background-color: #5E6274;
 }
 
