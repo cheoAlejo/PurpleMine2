@@ -6762,6 +6762,3 @@ a.logout:before {
   color: rgb(237, 150, 98);
 }
 
-a.logout:before:hover {
-	color: white;
-}
