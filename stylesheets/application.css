@@ -6929,7 +6929,7 @@ div.git.box {
   content: "\f0e8";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-  color: #476947;
+  color: #6486C3;
 }
 
 #main-menu a.overview:after {
@@ -7024,10 +7024,10 @@ div.git.box {
 }
 
 #main-menu a.roadmap:before {
-  content: "\f135";
+content: "\f018";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-}
+  color: #C76E5E;}
 
 #main-menu a.roadmap:after {
   content: "Metas";
@@ -7191,7 +7191,7 @@ div.git.box {
   content: "\f073";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-    color: #CB5757;
+    color: #6381B8;
 }
 
 #main-menu a.calendar:after {
@@ -7257,7 +7257,7 @@ div.git.box {
   content: "\f07c";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-  color: #777;
+  color: #6486C3;
 }
 
 #main-menu a.documents:after {
@@ -7290,7 +7290,7 @@ div.git.box {
   content: "\f0a2";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-  color: #B85353;
+  color: #9B2828;
 }
 
 #main-menu a.issue-reminder:after {
@@ -7419,7 +7419,7 @@ div.git.box {
   content: "\f02d";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
-    color: #3E4B7F;
+    color: #6486C3;
 }
 
 #main-menu a.articles:after {
@@ -7485,6 +7485,7 @@ div.git.box {
   content: "\f130";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
+  color: #646E96;
 }
 
 #main-menu a.boards:after {
