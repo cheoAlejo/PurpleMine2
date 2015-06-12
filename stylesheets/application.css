@@ -5543,13 +5543,13 @@ table.list th.checkbox>a img {
 	color: #fff
 }
 #quick-search {
-	margin-top: 10px;
+	margin-top: 18px;
 	margin-right: 20px;
 	float: right;
 	color: #fff
 }
 #quick-search label {
-	font-weight: 500
+	font-weight: 600;
 }
 #quick-search form {
 	display: inline
@@ -6843,3 +6843,61 @@ div#loggedas {
 	font-size: 0;
 }
 
+
+
+#header .select2-container .select2-choice .select2-arrow {
+  display: inline-block;
+  width: 18px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: -webkit-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+  background-image: -moz-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeeeee', endColorstr = '#cccccc', GradientType = 0);
+}
+
+
+#heder .select2-container .select2-choice > .select2-chosen {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: none;
+  width: auto;
+  color: #9EA2B0;
+  font-size: 0.96em;
+}
+
+#header .select2-container .select2-choice {
+  display: block;
+  height: 26px;
+  padding: 0 0 0 8px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #3E414A;
+  white-space: nowrap;
+  line-height: 26px;
+  color: #444;
+  text-decoration: none;
+  border-radius: 3px;
+  background-clip: padding-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #5E6274;
+  background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+  background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);
+}
+
+#header .select2-container {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: bottom;
+}
