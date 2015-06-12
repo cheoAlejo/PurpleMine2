@@ -5512,10 +5512,6 @@ table.list th.checkbox>a img {
 	color: #fff;
 	text-decoration: none
 }
-#top-menu #loggedas {
-	margin-left: 1em;
-	float: right
-}
 #account {
 	float: right
 }
@@ -6762,3 +6758,13 @@ a.logout:before {
   color: rgb(237, 150, 98);
 }
 
+
+#top-menu #loggedas {
+	margin-left: 1em;
+	float: right;
+	font-size: 0.88rem;
+}
+
+div#loggedas {
+  font-size: 0;
+}
