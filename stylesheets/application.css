@@ -6840,7 +6840,7 @@ div#loggedas {
 }
 
 #top-menu a.administration:before {
-  content: "\f085";
+  content: "\f013";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
@@ -7155,7 +7155,7 @@ div.git.box {
 }
 
 #main-menu a.issues:before {
-  content: "\f0cb";
+  content: "\f085";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
   color: rgb(133, 113, 174);
@@ -7221,7 +7221,7 @@ div.git.box {
 }
 
 #main-menu a.news:before {
-  content: "\f1ea";
+  content: "\f028";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
   color: #3E4B7F;
