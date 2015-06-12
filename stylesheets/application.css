@@ -7053,6 +7053,25 @@ div.git.box {
   color: #777;
 }
 
+a.documents:after {
+  content: "Documentos";
+  font-size: 12px;
+  padding: 5px 20px;
+  background-color: rgb(106, 141, 205);
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.6;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  display: none;
+}
+
+a.documents:after {
+	display: block;
+}
+
 
 #main-menu a.issue-reminder {
 	font-size: 0;
