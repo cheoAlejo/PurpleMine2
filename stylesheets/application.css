@@ -7044,3 +7044,82 @@ div.git.box {
   font-size: 1.2rem;
 }
 
+
+#main-menu a.issue-remainder {
+	font-size: 0;
+}
+
+#main-menu a.issue-remainder:before {
+  content: "\f0a2";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.settings {
+	font-size: 0;
+}
+
+#main-menu a.settings:before {
+  content: "\f0ad";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.wiki {
+	font-size: 0;
+}
+
+#main-menu a.wiki:before {
+  content: "\f1c2";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.files {
+	font-size: 0;
+}
+
+#main-menu a.files:before {
+  content: "\f1c6";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.articles {
+	font-size: 0;
+}
+
+#main-menu a.articles:before {
+  content: "\f02d";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.dashboard {
+	font-size: 0;
+}
+
+#main-menu a.dashboard:before {
+  content: "\f0db";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+#main-menu a.boards {
+	font-size: 0;
+}
+
+#main-menu a.boards:before {
+  content: "\f211";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+
