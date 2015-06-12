@@ -4786,7 +4786,7 @@ p.buttons .icon {
 	content: "\f0ea"
 }
 .icon-del:before {
-	content: "\f1f8"
+	content: "\f00d"
 }
 .icon-move:before {
 	content: "\f047"
@@ -5239,7 +5239,7 @@ a.remove-upload:hover, a.remove-upload:focus {
 	opacity: 1
 }
 a.remove-upload:before {
-	content: "\f1f8"
+	content: "\f00d"
 }
 em.info.error:before {
 	content: "\f06a"
@@ -5269,7 +5269,7 @@ em.info.error:before {
 	color: #d62c1a
 }
 .message .contextual a: nth-child(3):before {
-	content: "\f1f8"
+	content: "\f00d"
 }
 .message .contextual a img {
 	display: none
@@ -5386,7 +5386,7 @@ div.wiki .contextual[href*="edit"] img {
 }
 .attachments a.delete:before, .watchers a.delete:before {
 	color: #e74c3c;
-	content: "\f1f8"
+	content: "\f00d"
 }
 .attachments a.delete:hover:before, .attachments a.delete:focus:before, .watchers a.delete:hover:before, .watchers a.delete:focus:before {
 	color: #d62c1a
@@ -5452,14 +5452,14 @@ table.list th.checkbox>a img {
 }
 .time-entry .buttons>a[data-method="delete"]:before {
 	color: #e74c3c;
-	content: "\f1f8"
+	content: "\f00d"
 }
 .time-entry .buttons>a img {
 	display: none
 }
 .file .buttons>a[data-method="delete"]:before {
 	color: #e74c3c;
-	content: "\f1f8"
+	content: "\f00d"
 }
 .file .buttons>a img {
 	display: none
@@ -5469,7 +5469,7 @@ table.list th.checkbox>a img {
 }
 .delete-commit-keywords:before {
 	color: #e74c3c;
-	content: "\f1f8"
+	content: "\f00d"
 }
 .delete-commit-keywords img {
 	display: none
