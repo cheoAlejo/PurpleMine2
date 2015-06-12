@@ -6738,9 +6738,7 @@ table.people.index td img.gravatar {
 
 
 a.my-account {
-  border: 1px dashed;
-  padding: 3px 10px 4px 10px;
-  border-radius: 4px;
+  font-size: 0;
 }
 
 a.my-account:before {
