@@ -5108,10 +5108,14 @@ h3.comments:before {
 	content: "\f086"
 }
 div.issues h3:before {
-	content: "\f145"
+  content: "\f145";
+  font-size: 1.5em;
+  color: rgb(220, 93, 93);
 }
 div.members h3:before {
-	content: "\f007"
+  content: "\f0c0";
+  font-size: 1.5em;
+  color: rgb(107, 161, 115);
 }
 div.news h3:before {
 	content: "\f1ea"
