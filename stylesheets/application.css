@@ -6758,6 +6758,10 @@ a.logout:before {
   color: rgb(237, 150, 98);
 }
 
+a.logout:hover:before {
+  color: white;
+}
+
 
 #top-menu #loggedas {
 	margin-left: 1em;
