@@ -7000,7 +7000,7 @@ div.git.box {
 }
 
 #main-menu a.new-issue:after {
-  content: "Nueva tarea";
+  content: "Nueva Tarea";
   font-size: 12px;
   padding: 5px 20px;
   background-color: rgb(106, 141, 205);
@@ -7287,7 +7287,7 @@ div.git.box {
 }
 
 #main-menu a.issue-reminder:after {
-  content: "Alertas/Recordatorios";
+  content: "Alertas / Recordatorios";
   font-size: 12px;
   padding: 5px 20px;
   background-color: rgb(106, 141, 205);
