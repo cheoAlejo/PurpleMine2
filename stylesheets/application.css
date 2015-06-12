@@ -6762,6 +6762,9 @@ a.logout:before {
 #top-menu #loggedas {
 	margin-left: 1em;
 	float: right;
+}
+
+div#loggedas {
 	font-size: 0.88rem;
 }
 
