@@ -1210,8 +1210,6 @@ label.no-css {
 #content {
 	padding: 20px;
 	overflow: hidden;
-	width: 100%;
-	padding-left: 40px;
 }
 #sidebar {
   width: 17%;
@@ -1220,6 +1218,7 @@ label.no-css {
   padding: 20px 14px;
   overflow: auto;
   resize: horizontal;
+  float: left;
 }
 @media screen and (min-width: 1px) {
 	#sidebar {
@@ -1232,7 +1231,6 @@ label.no-css {
 	margin: 0;
 	padding: 0;
 	float: none;
-	display: none;
 }
 #sidebar h3 {
 	margin-top: 30px
@@ -6021,8 +6019,6 @@ table.list td {
 }
 #main {
 	position: relative;
-	display: flex;
-	flex-flow: row nowrap;
 }
 #sidebar {
   -webkit-transition: margin .5s;
