@@ -6929,7 +6929,7 @@ div.git.box {
 }
 
 #main-menu a.overview:before {
-  content: "\f085";
+  content: "\f0e8";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
@@ -7116,7 +7116,7 @@ div.git.box {
 }
 
 #main-menu a.boards:before {
-  content: "\f211";
+  content: "\f130";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
