@@ -6922,3 +6922,14 @@ div.git.box {
   background-color: transparent;
   float: right;
 }
+
+
+#main-menu a.overview {
+	font-size: 0;
+}
+
+#main-menu a.overview:before {
+  content: "\f085";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
