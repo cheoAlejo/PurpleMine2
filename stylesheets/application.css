@@ -1211,6 +1211,7 @@ label.no-css {
 	padding: 20px;
 	overflow: hidden;
 	width: 100%;
+	padding-left: 40px;
 }
 #sidebar {
   width: 17%;
