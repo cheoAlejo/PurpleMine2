@@ -6025,7 +6025,7 @@ table.list td {
   -webkit-transition: margin .5s;
   -o-transition: margin .5s;
   transition: margin .5s;
-  background-color: #FCFCFC;
+  background-color: #FBFBFB;
   border-right: 1px dashed;
   border-color: #CCC;
 }
@@ -6045,7 +6045,7 @@ table.list td {
 	top: 1px;
 	color: #ababab;
 	line-height: 1;
-	left: 1px
+	left: 3px
 }
 .sidebar-toggler:before {
 	margin-right: 0
@@ -6054,10 +6054,14 @@ table.list td {
 	color: #808080
 }
 .sidebar-toggler:before {
-	content: "\f191"
+  content: "\f066";
+  font-size: 1.5em;
+  color: #C66B6B;
 }
 .sidebar-toggler.sidebar-hidden:before {
-	content: "\f152"
+  content: "\f065";
+  font-size: 1.4em;
+  color: #6B9F6B;
 }
 
 
