@@ -1212,9 +1212,7 @@ label.no-css {
 	overflow: hidden;
 }
 #sidebar {
-  width: 17%;
-  min-width: 10%;
-  max-width: 25%;
+  max-width: 30%;
   padding: 20px 14px;
   overflow: auto;
   resize: horizontal;
