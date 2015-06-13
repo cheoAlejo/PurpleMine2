@@ -6024,8 +6024,7 @@ table.list td {
 /*	margin-left: -270px*/
 	display: none;
 }
-#sidebar.sidebar-hidden {
-}
+
 .sidebar-toggler {
 	-webkit-user-select: none;
 	-moz-user-select: none;
