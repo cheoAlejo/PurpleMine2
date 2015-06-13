@@ -1212,10 +1212,8 @@ label.no-css {
 	overflow: hidden;
 }
 #sidebar {
-  max-width: 20%;
+  max-width: 15%;
   padding: 20px 14px;
-  overflow: auto;
-  resize: horizontal;
   float: left;
 }
 @media screen and (min-width: 1px) {
