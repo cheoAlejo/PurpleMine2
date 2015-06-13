@@ -1212,7 +1212,7 @@ label.no-css {
 	overflow: hidden;
 }
 #sidebar {
-  max-width: 30%;
+  max-width: 20%;
   padding: 20px 14px;
   overflow: auto;
   resize: horizontal;
@@ -1221,7 +1221,7 @@ label.no-css {
 @media screen and (min-width: 1px) {
 	#sidebar {
 		padding-bottom: 60px;
-		padding-right: 21px;
+		padding-right: 30px;
 }
 }
 .nosidebar #sidebar {
@@ -6019,9 +6019,6 @@ table.list td {
 	position: relative;
 }
 #sidebar {
-  -webkit-transition: margin .5s;
-  -o-transition: margin .5s;
-  transition: margin .5s;
   background-color: #FBFBFB;
   border-right: 1px dashed;
   border-color: #CCC;
