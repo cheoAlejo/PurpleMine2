@@ -6021,10 +6021,10 @@ table.list td {
   border-color: #CCC;
 }
 #sidebar.sidebar-hiding {
-	margin-left: -270px
+/*	margin-left: -270px*/
+	display: none;
 }
 #sidebar.sidebar-hidden {
-	display: none
 }
 .sidebar-toggler {
 	-webkit-user-select: none;
