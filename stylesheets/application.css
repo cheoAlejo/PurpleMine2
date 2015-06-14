@@ -6071,10 +6071,18 @@ a.sidebar-toggler.sidebar-hidden {
   color: #B6B6B6;
 }
 
+.sidebar-toggler.sidebar-hidden:hover:before {
+  color: #ED9662;
+}
+
 .sidebar-toggler.sidebar-hidden:before {
   content: "\f0c9";
   font-size: 21px;
   color: #626C93;
+}
+
+.sidebar-toggler:hover:before {
+  color: #ED9662;
 }
 
 
