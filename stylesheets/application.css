@@ -6021,14 +6021,19 @@ table.list td {
   border-right: 1px dashed;
   border-bottom: 1px dashed;
   border-color: #CCC;
+  -webkit-transition: margin .3s;
+   -o-transition: margin .3s;
+   transition: margin .3s;
 }
 
 #sidebar.sidebar-hiding {
-/*	margin-left: -270px*/
-	display: none;
+	margin-left: -30%;
 }
 
 .sidebar-toggler {
+  -webkit-transition: margin .5s;
+  -o-transition: margin .5s;
+  transition: margin .5s;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
