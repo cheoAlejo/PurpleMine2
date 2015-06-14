@@ -6060,9 +6060,9 @@ a.sidebar-toggler.sidebar-hidden {
 }
 
 .sidebar-toggler:before {
-  content: "\f066";
-  font-size: 1.5em;
-  color: #C66B6B;
+  content: "\f177";
+  font-size: 23px;
+  color: #B6B6B6;
 }
 
 .sidebar-toggler.sidebar-hidden:before {
