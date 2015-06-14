@@ -1213,7 +1213,7 @@ label.no-css {
 }
 #sidebar {
   max-width: 15%;
-  padding: 20px 14px;
+  padding: 30px 14px;
   float: left;
 }
 @media screen and (min-width: 1px) {
@@ -6019,6 +6019,7 @@ table.list td {
 #sidebar {
   background-color: #FBFBFB;
   border-right: 1px dashed;
+  border-bottom: 1px dashed;
   border-color: #CCC;
 }
 
