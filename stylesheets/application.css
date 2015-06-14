@@ -6015,39 +6015,56 @@ table.list td {
 #main {
 	position: relative;
 }
+
 #sidebar {
   background-color: #FBFBFB;
   border-right: 1px dashed;
   border-color: #CCC;
 }
+
 #sidebar.sidebar-hiding {
 /*	margin-left: -270px*/
 	display: none;
 }
 
 .sidebar-toggler {
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	display: block;
-	position: absolute;
-	top: 1px;
-	color: #ababab;
-	line-height: 1;
-	left: 3px
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  color: #ababab;
+  line-height: 1;
+  left: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
 }
+
+a.sidebar-toggler.sidebar-hidden {
+  border-right: 1px dashed;
+  border-color: #CFCFCF;
+  background-color: whitesmoke;
+  margin: 0;
+  height: 100%;
+}
+
 .sidebar-toggler:before {
 	margin-right: 0
 }
+
 .sidebar-toggler:hover, .sidebar-toggler:focus, .sidebar-toggler:active {
 	color: #808080
 }
+
 .sidebar-toggler:before {
   content: "\f066";
   font-size: 1.5em;
   color: #C66B6B;
 }
+
 .sidebar-toggler.sidebar-hidden:before {
   content: "\f0c9";
   font-size: 1.4em;
