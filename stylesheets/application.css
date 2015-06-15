@@ -1309,7 +1309,7 @@ table.list th {
   color: #FFF;
   vertical-align: bottom;
   border: 1px solid transparent;
-  background-color: #888A91;
+  background-color: #636D95;
 }
 table.list th a {
 	color: #FFF;
@@ -5529,7 +5529,7 @@ table.list th.checkbox>a img {
 	background-repeat: no-repeat;
 	background-position: 16px 11px;
 	font-weight: 300;
-	font-size: 2.4em;
+	font-size: 2.3em;
 	font-family: 'Open Sans', 'Cabin', Verdana, sans-serif;
 	background-size: 46px 44px;
 }
