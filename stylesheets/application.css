@@ -6881,60 +6881,6 @@ div#loggedas {
 
 
 
-#header .select2-container .select2-choice .select2-arrow {
-display: inline-block;
-  width: 18px;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  border:none;
-  background-image: none;
-  background-color: transparent;
-}
-
-
-#header .select2-container .select2-choice > .select2-chosen {
-  margin-right: 26px;
-  display: block;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  float: none;
-  width: auto;
-  color: #9EA2B0;
-  font-size: 0.96em;
-}
-
-#header .select2-container .select2-choice {
-  display: block;
-  height: 26px;
-  padding: 0 0 0 8px;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid #3E414A;
-  white-space: nowrap;
-  line-height: 26px;
-  color: #444;
-  text-decoration: none;
-  border-radius: 3px;
-  background-clip: padding-box;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  background-color: #5E6274;
-}
-
-#header .select2-container {
-  margin: 0;
-  position: relative;
-  display: inline-block;
-  zoom: 1;
-  vertical-align: bottom;
-}
 
 
 div.git.box {
@@ -7539,4 +7485,88 @@ content: "\f018";
 
 
 
+/* #  SELECT SIMPLE */
 
+#main select:not([multiple='multiple']) {
+  height: 30px;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  background-image: url("/plugin_assets/redmine__select2/images/select2-arrow.png");
+  padding: 1px 10px 0px 2px;
+
+  background-color: #FFF;
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: 1px solid #C8C6C6;
+  border-radius: 4px;
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 30px;
+  padding: 0px 13px 0px 3px;
+  font: inherit;
+
+  font-size: 0.94em;
+}
+
+
+
+
+/* # Jump to project select */
+
+#header .select2-container .select2-choice .select2-arrow {
+display: inline-block;
+  width: 18px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border:none;
+  background-image: none;
+  background-color: transparent;
+}
+
+
+#header .select2-container .select2-choice > .select2-chosen {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: none;
+  width: auto;
+  color: #9EA2B0;
+  font-size: 0.96em;
+}
+
+#header .select2-container .select2-choice {
+  display: block;
+  height: 26px;
+  padding: 0 0 0 8px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #3E414A;
+  white-space: nowrap;
+  line-height: 26px;
+  color: #444;
+  text-decoration: none;
+  border-radius: 3px;
+  background-clip: padding-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  background-color: #5E6274;
+}
+
+#header .select2-container {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: bottom;
+}
