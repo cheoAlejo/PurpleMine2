@@ -7577,3 +7577,8 @@ display: inline-block;
 .new_issue textarea.wiki-edit {
   height: 100px !important;
 }
+
+.new_issue div#attributes {
+  margin-top: 30px;
+  padding-top: 20px;
+}
