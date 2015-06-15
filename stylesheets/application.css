@@ -7595,3 +7595,11 @@ display: inline-block;
   padding-right: 10px;
   font-size: 1.5em;
 }
+
+span.add_attachment:before {
+  content: "\f03e \f0c6";
+  font: normal normal normal 14px/1 FontAwesome;
+  padding-right: 10px;
+  font-size: 1.5em;
+  color: #3D60A2;
+}
