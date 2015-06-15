@@ -7618,3 +7618,21 @@ span.add_attachment:before {
 #main .custom-button {
   background-position-x: 8px;
 }
+
+
+
+#watchers .contextual a {
+  font-size: 0;
+}
+
+#watchers .contextual a:before {
+  content: "\f234";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.3rem;
+  color: #298A29;
+}
+
+#watchers .contextual a:hover:before {
+  text-decoration: none;
+  color: #E67532;
+}
