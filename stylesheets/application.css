@@ -7590,7 +7590,7 @@ display: inline-block;
 }
 
 #attachments_form label:before {
-  content: "\f03e \f0c6";
+  content: "\f03e    \f0c6";
   font: normal normal normal 14px/1 FontAwesome;
   padding-right: 10px;
   font-size: 1.5em;
