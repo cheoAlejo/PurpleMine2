@@ -7604,3 +7604,10 @@ span.add_attachment:before {
   font-size: 1.5em;
   color: #3D60A2;
 }
+
+
+.box.tabular label {
+  font-weight: 600;
+  color: #636C7C;
+  margin-top: 0;
+}
