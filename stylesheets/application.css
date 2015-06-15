@@ -6319,10 +6319,15 @@ div.topic h3.subject
 
 
 #sidebar h3 {
-	clear: both;
-	font-size: 1.02em;
-	color: #707070;
-	font-weight: 600;
+  clear: both;
+  font-size: 1em;
+  color: #486B95;
+  font-weight: 600;
+  border-bottom: 1px dashed;
+  border-color: #d5d5d5;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+  margin-top: 40px;
 }
 
 
