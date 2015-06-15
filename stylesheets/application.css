@@ -7583,3 +7583,8 @@ display: inline-block;
   padding-top: 20px;
   margin-bottom: 30px;
 }
+
+.new_issue p#attachments_form {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
