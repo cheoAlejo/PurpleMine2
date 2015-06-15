@@ -868,11 +868,11 @@ label[for="issue_subject"] {
 	margin-top: 11px
 }
 #issue_subject {
-	height: 42px;
+	height: 38px;
 	padding: 8px 12px;
 	border-radius: 4px;
-	font-size: 1.285em;
-	line-height: 1.33
+	font-size: 1em;
+	line-height: 1.33;
 }
 .jstEditor {
 	margin-bottom: 10px
