@@ -7588,3 +7588,10 @@ display: inline-block;
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
+#attachments_form label:before {
+  content: "\f03e \f0c6";
+  font: normal normal normal 14px/1 FontAwesome;
+  padding-right: 10px;
+  font-size: 1.5em;
+}
