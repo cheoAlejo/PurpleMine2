@@ -6069,6 +6069,7 @@ a.sidebar-toggler.sidebar-hidden {
   content: "\f177";
   font-size: 23px;
   color: #B6B6B6;
+  width: 100px;
 }
 
 .sidebar-toggler.sidebar-hidden:hover:before {
@@ -6079,6 +6080,7 @@ a.sidebar-toggler.sidebar-hidden {
   content: "\f0c9";
   font-size: 21px;
   color: #626C93;
+  width: auto;
 }
 
 .sidebar-toggler:hover:before {
