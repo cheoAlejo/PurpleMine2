@@ -7637,3 +7637,12 @@ span.add_attachment:before {
   text-decoration: none;
   color: #E67532;
 }
+
+
+.box.tabular #issue_tags label:before {
+  content: "\f02c";
+  font: normal normal normal 14px/1 FontAwesome;
+  padding-right: 6px;
+  color: #2F7F9F;
+  font-size: 1.3em;
+}
