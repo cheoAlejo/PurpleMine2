@@ -7612,3 +7612,9 @@ span.add_attachment:before {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+
+
+#main .custom-button {
+  background-position-x: 8px;
+}
