@@ -7727,7 +7727,7 @@ a[onclick^="submitPreview"]:before {
   color: white;
 }
 
-#main .dropdown-menu li.active a:hover {
+#main .dropdown-menu li a:hover {
   color: white;
 }
 
