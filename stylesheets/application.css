@@ -1833,7 +1833,6 @@ tr.issue.assigned-to-me .subject a:after {
 }
 
 tr.issue.assigned-to-me td.subject {
-  padding-left: 2px;
 }
 
 .issue.details a.issue,
