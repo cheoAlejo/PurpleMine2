@@ -7706,10 +7706,21 @@ a[onclick^="submitPreview"]:before {
   margin: 4px;
 }
 
+#main .textcomplete-item:hover {
+  background-color: green;
+}
+
+
 #main .textcomplete-item a {
   color: #169;
   font-size: 0.9em;
   padding: 3px 8px 4px 12px;
+}
+
+#main .dropdown-menu li a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 #main .textcomplete-item a>small {
@@ -7728,13 +7739,5 @@ a[onclick^="submitPreview"]:before {
   text-decoration: none;
 }
 
-#main .dropdown-menu li a:hover {
-  color: white;
-  text-decoration: none;
-}
 
-#main .dropdown-menu li:hover {
-  color: white;
-  text-decoration: none;
-}
 
