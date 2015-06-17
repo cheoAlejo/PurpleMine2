@@ -7707,7 +7707,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .textcomplete-item:hover {
-  background-color: green;
+  background-color: #CDDCF8;
 }
 
 
@@ -7715,10 +7715,10 @@ a[onclick^="submitPreview"]:before {
   color: #169;
   font-size: 0.9em;
   padding: 3px 8px 4px 12px;
+  background-color: transparent;
 }
 
 #main .dropdown-menu li a:hover {
-  color: white;
   text-decoration: none;
   background-color: transparent;
 }
