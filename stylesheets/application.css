@@ -7662,7 +7662,7 @@ span.add_attachment:before {
 
 a[onclick^="submitPreview"] {
   color: #FFFFFF;
-  background-color: cornflowerblue;
+  background-color: #E66936;
   padding: 8px 14px 7px 12px;
   border-radius: 4px;
   font-size: 12px;
