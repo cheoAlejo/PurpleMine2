@@ -1831,6 +1831,10 @@ tr.issue.assigned-to-me .subject a:before {
   font-size: 12px;
 }
 
+tr.issue.assigned-to-me td.subject {
+  padding-left: 2px;
+}
+
 .issue.details a.issue,
 .issue.details a.issue:hover, .issue.details .wiki a.issue, .issue.details .wiki a.issue:hover {
 	color: #fff
