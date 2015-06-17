@@ -1823,12 +1823,13 @@ tr.issue .id>a:before {
 	font-size: 0.8em;
 }
 
-tr.issue.assigned-to-me .subject a:before {
+tr.issue.assigned-to-me .subject a:after {
   content: '\f005';
   font: normal normal normal 11px/1 FontAwesome;
   color: rgb(227, 125, 204);
-  margin-right: 3px;
-  font-size: 12px;
+  margin-left: 4px;
+  font-size: 9px;
+  vertical-align: top;
 }
 
 tr.issue.assigned-to-me td.subject {
