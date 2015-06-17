@@ -7589,6 +7589,7 @@ display: inline-block;
 
 .new_issue textarea.wiki-edit {
   min-height: 150px !important;
+  overflow-y: scroll;
 }
 
 .new_issue div#attributes {
