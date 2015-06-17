@@ -7658,3 +7658,28 @@ span.add_attachment:before {
   color: #2F7F9F;
   font-size: 1.3em;
 }
+
+
+a[onclick^="submitPreview"] {
+  color: #FFFFFF;
+  background-color: cornflowerblue;
+  padding: 8px 14px 7px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-shadow: none;
+  font-family: Arial;
+  margin-left: 20px;
+}
+
+a[onclick^="submitPreview"]:hover {
+  text-decoration: none;
+  background-color: #B95533;
+}
+
+a[onclick^="submitPreview"]:before {
+  content: "\f108";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1rem;
+  margin-right: 7px;
+  vertical-align: middle;
+}
