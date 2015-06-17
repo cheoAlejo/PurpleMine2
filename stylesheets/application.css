@@ -7725,9 +7725,16 @@ a[onclick^="submitPreview"]:before {
 
 #main .dropdown-menu li.active a {
   color: white;
+  text-decoration: none;
 }
 
 #main .dropdown-menu li a:hover {
   color: white;
+  text-decoration: none;
+}
+
+#main .dropdown-menu li:hover {
+  color: white;
+  text-decoration: none;
 }
 
