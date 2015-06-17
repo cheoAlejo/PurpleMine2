@@ -1827,7 +1827,7 @@ tr.issue.assigned-to-me .subject a:before {
   content: '\f005';
   font: normal normal normal 11px/1 FontAwesome;
   color: rgb(227, 125, 204);
-  margin-right: 2px;
+  margin-right: 3px;
   font-size: 12px;
 }
 
