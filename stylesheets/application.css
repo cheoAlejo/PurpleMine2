@@ -1443,7 +1443,7 @@ tr.issue.idnt .subject a {
 }
 .controller-issues.action-index tr.issue.assigned-to-me .assigned_to a,
 .controller-issues.action-index tr.issue.assigned-to-me .subject a {
-	font-weight: bold
+	font-weight: normal;
 }
 tr.issue.idnt-1 .subject {
 	padding-left: 8px
@@ -1821,8 +1821,16 @@ tr.issue .id>a:before {
 	color: #fff;
 	font-weight: normal;
 	font-size: 0.8em;
-	content: "#"
 }
+
+tr.issue.assigned-to-me .subject a:before {
+  content: '\f005';
+  font: normal normal normal 11px/1 FontAwesome;
+  color: rgb(227, 125, 204);
+  margin-right: 2px;
+  font-size: 12px;
+}
+
 .issue.details a.issue,
 .issue.details a.issue:hover, .issue.details .wiki a.issue, .issue.details .wiki a.issue:hover {
 	color: #fff
