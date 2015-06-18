@@ -6839,7 +6839,7 @@ div#loggedas {
 }
 
 #top-menu a.my-page:before {
-  content: "\f004";
+  content: "\f097";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
@@ -6883,7 +6883,7 @@ div#loggedas {
 }
 
 #top-menu a.administration:before {
-  content: "\f013";
+  content: "\f0ad";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
