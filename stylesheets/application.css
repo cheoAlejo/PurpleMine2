@@ -7966,11 +7966,19 @@ a[onclick^="submitPreview"]:before {
   padding-top: 30px;
   border-bottom: 1px dashed #ddd;
   font-size: 1.1em;
+  color: #7A7B7D;
 }
 
 #main .notification.new h3>a>strong {
   color: rgb(230, 112, 3);
+  font-weight: 600;
 }
+
+#main .notification h3>a>strong {
+  color: #7A7B7D;
+  font-weight: 600;
+}
+
 
 #main .notification.new>ul {
   color: #6F90CB;
