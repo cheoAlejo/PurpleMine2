@@ -6895,6 +6895,17 @@ div#loggedas {
 
 
 
+#top-menu a[title^="Historial"]:before {
+  content: "\f1da";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+#top-menu a[title^="Historial"] {
+  font-size: 0;
+}
+
+
 
 
 div.git.box {
