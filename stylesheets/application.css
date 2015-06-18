@@ -7975,7 +7975,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .notification h3>a>strong {
-  color: #7A7B7D;
+  color: #6977AE;
   font-weight: 600;
 }
 
@@ -7988,4 +7988,27 @@ a[onclick^="submitPreview"]:before {
   color: #B6B2AF;
   font-size: 0.9em;
   font-style: normal;
+}
+
+
+
+#main .notification a.view-notification:before {
+  content: "\f00c";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1em;
+  margin-right: 4px;
+}
+
+#main .notification a.view-notification:hover {
+  text-decoration: none;
+  background-color: rgb(64, 99, 161);
+}
+
+#main .notification a.view-notification {
+  font-size: 12px;
+  font-family: Arial;
+  color: white;
+  background-color: cornflowerblue;
+  padding: 8px 14px 7px 12px;
+  border-radius: 4px;
 }
