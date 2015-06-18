@@ -7877,7 +7877,7 @@ a[onclick^="submitPreview"]:before {
 	background-color: #F8F8F8;
 }
 
-#top-menu .notification-container.new {
+#top-menu .notification-container.new:hover {
 	background-color: #F8F8F8;
 }
 
