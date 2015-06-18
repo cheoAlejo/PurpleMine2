@@ -6907,6 +6907,16 @@ div#loggedas {
 
 
 
+#top-menu a[title^="Todas"] {
+  font-size: 0;
+}
+
+#top-menu a[title^="Todas"]:before {
+  content: "\f085";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
 
 div.git.box {
   background-image: url(../images/git-logo.png);
