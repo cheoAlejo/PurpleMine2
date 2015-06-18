@@ -7847,9 +7847,14 @@ a[onclick^="submitPreview"]:before {
   background-color: transparent;
   text-align: center;
   font-weight: bold;
-  padding: 8px;
-  font-size: 13px;
+  padding: 5px;
+  font-size: 1em;
   border: none;
+}
+
+#top-menu #notificationsFooter a {
+  text-decoration: none;
+  color: #D05113;
 }
 
 
@@ -7869,16 +7874,18 @@ a[onclick^="submitPreview"]:before {
 }
 
 #top-menu .notification-container {
-  padding: 10px 15px;
+  padding: 6px 15px;
   background-color: transparent;
+  margin: 6px;
+  border-radius: 4px;
 }
 
 #top-menu .notification-container:hover {
-	background-color: #F8F8F8;
+	background-color: #F3F4F6;
 }
 
 #top-menu .notification-container.new:hover {
-	background-color: #F8F8F8;
+	background-color: #F3F4F6;
 }
 
 
