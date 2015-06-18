@@ -7873,6 +7873,14 @@ a[onclick^="submitPreview"]:before {
   background-color: transparent;
 }
 
+#top-menu .notification-container:hover {
+	background-color: #F8F8F8;
+}
+
+#top-menu .notification-container.new {
+	background-color: #F8F8F8;
+}
+
 
 
 #top-menu #notification_count {
