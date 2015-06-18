@@ -6918,6 +6918,19 @@ div#loggedas {
 }
 
 
+
+a[title^="Mis Tareas"] {
+  font-size: 0;
+}
+#top-menu a[title^="Mis Tareas"]:before {
+  content: "\f006";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+
+
 div.git.box {
   background-image: url(../images/git-logo.png);
   background-repeat: no-repeat;
