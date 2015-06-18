@@ -7819,14 +7819,20 @@ a[onclick^="submitPreview"]:before {
 }
 
 
+
+#top-menu li.notification_li {
+  position: relative;
+}
+
 #top-menu #notificationsContainer {
   /* color: #C72E2E; */
   background-color: #FFF;
   border: 1px solid #7D85A4;
   box-shadow: 0px 0px 14px #142565;
   position: absolute;
-  top: 38px;
-  margin-left: 193px;
+  top: 30px;
+  left: 0;
+  margin-left: -5px;
   width: 400px;
   z-index: 1000;
   display: none;
