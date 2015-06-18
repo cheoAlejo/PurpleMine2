@@ -7848,10 +7848,11 @@ a[onclick^="submitPreview"]:before {
 
 
 #top-menu #notificationsFooter {
-  background-color: transparent;
+  background-color: #B43E06;
   text-align: center;
   font-weight: bold;
   padding: 5px;
+  padding-bottom: 6px;
   font-size: 1em;
   border: none;
 }
