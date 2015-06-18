@@ -7804,12 +7804,11 @@ a[onclick^="submitPreview"]:before {
   font-size: 0;
 }
 
-#top-menu a {
-  color: #9EA2B0;
-  font-weight: 600;
-  margin-right: 10px;
+#top-menu a.app-notifications:before {
+  content: "\f0a2";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
 }
-
 
 
 #top-menu #notificationsContainer {
