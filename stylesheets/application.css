@@ -6930,6 +6930,18 @@ a[title^="Mis Tareas"] {
 
 
 
+#top-menu a[title^="Manual"] {
+  font-size: 0;
+}
+
+#top-menu a[title^="Manual"]:before {
+  content: "\f059";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
+
+
+
 
 div.git.box {
   background-image: url(../images/git-logo.png);
