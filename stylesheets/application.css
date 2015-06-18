@@ -7880,7 +7880,7 @@ a[onclick^="submitPreview"]:before {
   margin-left: -18px;
   /* margin-top: -1px; */
   padding: 2px 5px;
-  /* position: absolute; */
+  position: relative;
   vertical-align: top;
   font-family: Arial;
 }
