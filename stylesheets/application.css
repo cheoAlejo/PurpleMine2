@@ -7951,3 +7951,31 @@ a[onclick^="submitPreview"]:before {
   font-size: 1em;
   padding-left: 0px;
 }
+
+
+#top-menu .notification.new {
+  background-color: transparent;
+}
+
+
+#top-menu .notification {
+  margin: 2px;
+  padding: 7px;
+  padding-top: 30px;
+  border-bottom: 1px dashed #ddd;
+  font-size: 1.1em;
+}
+
+#top-menu .notification.new h3>a>strong {
+  color: rgb(230, 112, 3);
+}
+
+#top-menu .notification.new>ul {
+  color: #6F90CB;
+}
+
+#top-menu .notification>div {
+  color: #B6B2AF;
+  font-size: 0.9em;
+  font-style: normal;
+}
