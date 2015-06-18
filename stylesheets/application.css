@@ -7814,6 +7814,10 @@ a[onclick^="submitPreview"]:before {
 	color: #F08460;
 }
 
+#top-menu a.app-notifications:focus:before {
+  color: #F08460;
+}
+
 
 #top-menu #notificationsContainer {
   /* color: #C72E2E; */
