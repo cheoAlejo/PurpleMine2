@@ -7826,8 +7826,7 @@ a[onclick^="submitPreview"]:before {
   width: 400px;
   z-index: 1000;
   display: none;
-  font-size: 12px;
-  border-radius: 5px;
+  font-size: 0.92rem;
 }
 
 
@@ -7835,11 +7834,12 @@ a[onclick^="submitPreview"]:before {
   z-index: 1000;
   font-weight: 600;
   padding: 8px;
-  font-size: 14px;
+  font-size: 1.2em;
   background-color: #f8f8f8;
   width: 384px;
   border-bottom: 1px solid #BFBFBF;
-  color: #D05113;
+  color: #B43E06;
+  text-shadow: 0 0 2px #FAA184;
 }
 
 
@@ -7906,4 +7906,22 @@ a[onclick^="submitPreview"]:before {
 }
 
 
+#top-menu .notification-title {
+  font-weight: normal;
+  color: #7A7B7D;
+  font-size: 1em;
+}
 
+#top-menu .notification-date {
+  color: #DB8A6A;
+  font-size: 0.86em;
+}
+
+#top-menu .notification-content {
+  color: #6F90CB;
+  display: block;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 1em;
+  padding-left: 0px;
+}
