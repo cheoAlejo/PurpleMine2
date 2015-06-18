@@ -7810,6 +7810,10 @@ a[onclick^="submitPreview"]:before {
   font-size: 1.2rem;
 }
 
+#top-menu a.app-notifications:hover:before {
+	color: #F08460;
+}
+
 
 #top-menu #notificationsContainer {
   /* color: #C72E2E; */
@@ -7877,7 +7881,7 @@ a[onclick^="submitPreview"]:before {
   color: #FF8686;
   font-size: 10px;
   font-weight: bold;
-  margin-left: -18px;
+  margin-left: -20px;
   /* margin-top: -1px; */
   padding: 2px 5px;
   position: relative;
