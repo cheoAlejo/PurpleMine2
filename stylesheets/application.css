@@ -8301,11 +8301,11 @@ a[onclick^="submitPreview"]:before {
 /* # loader    */
 #ajax-indicator {
   position: fixed;
-  top: 35%;
-  left: 46%;
-  opacity: 1;
+  top: 30%;
+  left: 42%;
+  opacity: 0.7;
   z-index: 10000;
-  color: rgb(232, 126, 126);
+  color: rgb(219, 77, 77);
 }
 
 #ajax-indicator span {
@@ -8339,13 +8339,12 @@ a[onclick^="submitPreview"]:before {
 #ajax-indicator span:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
   content: "\f013";
-  font-size: 80px;
+  font-size: 10rem;
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
 }
