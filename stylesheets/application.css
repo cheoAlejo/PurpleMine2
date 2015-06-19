@@ -8307,7 +8307,6 @@ a[onclick^="submitPreview"]:before {
   text-align: center;
   opacity: 1;
   z-index: 10000;
-  display: block !important;
   color: rgb(253, 138, 96);
 }
 
