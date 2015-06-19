@@ -8067,7 +8067,7 @@ a[onclick^="submitPreview"]:before {
 
 #main .rdb-columns .rdb-column {
   border-left: 2px dashed #E6EAFA;
-  padding: 0 3px 25px 1px;
+  padding: 10px 3px 25px 1px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
