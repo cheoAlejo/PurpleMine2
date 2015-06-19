@@ -8102,6 +8102,16 @@ a[onclick^="submitPreview"]:before {
 	margin-right: auto;
 }
 
+#main .rdb-card .rdb-priority {
+	height: auto;
+}
+
+#main .rdb-priority {
+  border-left: 5px solid #ccc;
+  height: 100%;
+}
+
+
 #main .rdb-priority-1 {
 	border-color: #BDBDBD;
 }
@@ -8128,14 +8138,6 @@ a[onclick^="submitPreview"]:before {
 	box-shadow: 0 0 0.5em #CCC;
 }
 
-#main .rdb-card .rdb-priority {
-	height: auto;
-}
-
-#main .rdb-priority {
-  border-left: 5px solid #ccc;
-  height: 100%;
-}
 
 #main .rdb-card-header a.rdb-menu-link,
 #main .rdb-compact-header a.rdb-menu-link,
