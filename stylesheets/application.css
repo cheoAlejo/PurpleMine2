@@ -8032,12 +8032,14 @@ a[onclick^="submitPreview"]:before {
 	background-color: #fff;
 	border: 1px solid #ccc;
 	border-radius: 0;
+	margin-left: 40px;
 }
 
 #main #rdb-header .rdb-menu-link {
 	padding: 4px 18px 4px 6px;
 	border-radius: 2px;
 	color: rgb(86, 107, 127);
+	font-size: 0.9em;
 }
 
 #main .rdb-headers .rdb-column {
@@ -8269,7 +8271,15 @@ a[onclick^="submitPreview"]:before {
 	width: 92%;
 }
 
+#main #rdb-header h2 a.rdb-menu-link {
+  font-size: 0.7em;
+}
 
+#main #rdb-header {
+  padding: 7px 30px 7px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
 
 
 
