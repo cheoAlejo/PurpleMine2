@@ -8245,8 +8245,9 @@ a[onclick^="submitPreview"]:before {
   position: relative;
   border-color: #B8BFCD;
   box-shadow: none;
-  border-top: none;
   border-left: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 #main .rdb-compact-header {
@@ -8307,7 +8308,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .rdb-issue-compact {
-  margin-bottom: 0;
+  margin-bottom: -6px;
 }
 
 #main .rdb-container a {
