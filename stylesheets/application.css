@@ -8026,7 +8026,7 @@ a[onclick^="submitPreview"]:before {
 #main #rdb-board {
 	clear: both;
 
-	margin: 10px 15px;
+	margin: 10px 2px;
 	padding: 8px 2px 2px;
 
 	background-color: #fff;
@@ -8052,7 +8052,8 @@ a[onclick^="submitPreview"]:before {
 	padding: 0 0 0 10px;
 	display: inline;
 	color: rgb(86, 107, 127);
-	font-weight: normal;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 
 #main .rdb-group:last-child .rdb-columns .rdb-column  {
