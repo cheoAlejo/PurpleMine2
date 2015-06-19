@@ -8272,7 +8272,7 @@ a[onclick^="submitPreview"]:before {
 	font-size: .95em;
 }
 #main .rdb-compact-subject {
-	/*max-height: 1.3em;*/
+	max-height: 28px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	width: 92%;
