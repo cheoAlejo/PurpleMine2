@@ -8352,3 +8352,30 @@ a[onclick^="submitPreview"]:before {
 
 
 
+/* # Home news */
+.news.box p {
+  font-size: 1.3em;
+  color: rgb(115, 115, 114);
+}
+
+.news.box>p {
+  margin-top: 30px;
+}
+
+.news.box p>a {
+  color: rgb(87, 129, 207);
+}
+
+.news.box .summary {
+  font-size: 0.8em;
+}
+
+.summary {
+  font-style: normal;
+}
+
+.news.box span.author {
+  font-size: 0.74em;
+  color: rgb(218, 83, 0);
+  line-height: 3em;
+}
