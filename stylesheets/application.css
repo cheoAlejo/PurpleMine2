@@ -8097,6 +8097,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .rdb-issue-card {
+	float: none;
 	width: 90%;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -8290,7 +8291,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .rdb-issue-compact {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 #main .rdb-container a {
