@@ -8119,7 +8119,7 @@ a[onclick^="submitPreview"]:before {
 #main .rdb-card {
 	width: 100%;
 	border: 1px solid;
-	background: #F9F9F9;
+	background-color: #F9F9F9;
 	border-radius: 4px;
 	position: relative;
 	border-color: #C9CDD5;
@@ -8134,7 +8134,7 @@ a[onclick^="submitPreview"]:before {
 #main .rdb-compact-header a.rdb-menu-link,
 #main .rdb-card-title > a {
 	padding-left: 18px;
-	background-image: url("img/cog.png");
+	/*background-image: url("img/cog.png");*/
 	background-repeat: no-repeat;
 	background-position: 4px 50%;
 	color: #ccc;
@@ -8173,7 +8173,7 @@ a[onclick^="submitPreview"]:before {
 #main .rdb-property {
 	display: block;
 	padding: 1px 0 0 14px;
-	background: transparent none no-repeat 0 70%;
+	/*background: transparent none no-repeat 0 70%;*/
 	font-size: .9em;
 	overflow: hidden;
 	height: 14px;
@@ -8181,27 +8181,27 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .rdb-property-tracker {
-	background-image: url("img/ticket.png");
+	/*background-image: url("img/ticket.png");*/
 	background-position: 0;
 }
 #main .rdb-property-assignee {
-	background-image: url("img/user.png");
+	/*background-image: url("img/user.png");*/
 	background-position: 0;
 }
 #main .rdb-property-category {
-	background-image: url("img/brick.png");
+	/*background-image: url("img/brick.png");*/
 	display: none;
 	position: absolute;
 	visibility: hidden;
 }
 #main .rdb-property-version {
-	background-image: url("img/package.png");
+	/*background-image: url("img/package.png");*/
 	display: none;
 	position: absolute;
 	visibility: hidden;
 }
 #main .rdb-property-time {
-	background-image: url("img/time.png");
+	/*background-image: url("img/time.png");*/
 	font-size: 70%;
 	display: none;
 	position: absolute;
@@ -8215,7 +8215,7 @@ a[onclick^="submitPreview"]:before {
 	border-color: #D9DBDF;
 	height: 40px;
 	border: 1px solid;
-	background: #F9F9F9;
+	/*background: #F9F9F9;*/
 	border-radius: 4px;
 	position: relative;
 	border-color: #C9CDD5;
