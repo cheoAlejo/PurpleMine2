@@ -8288,7 +8288,9 @@ a[onclick^="submitPreview"]:before {
   border-bottom: 1px solid #ccc;
 }
 
-
+#main .rdb-issue-compact {
+  margin-bottom: 10px;
+}
 
 
 
