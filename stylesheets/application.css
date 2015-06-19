@@ -8023,7 +8023,7 @@ a[onclick^="submitPreview"]:before {
 
 /* # dashboard kanban */
 
-#rdb-board {
+#main #rdb-board {
 	clear: both;
 
 	margin: 10px 15px;
@@ -8034,18 +8034,18 @@ a[onclick^="submitPreview"]:before {
 	border-radius: 0;
 }
 
-#rdb-header .rdb-menu-link {
+#main #rdb-header .rdb-menu-link {
 	padding: 4px 18px 4px 6px;
 	border-radius: 2px;
 	color: rgb(86, 107, 127);
 }
 
-.rdb-headers .rdb-column {
+#main .rdb-headers .rdb-column {
 	border-bottom: none;
 	padding: 0 0 4px;
 }
 
-.rdb-headers .rdb-column h3 {
+#main .rdb-headers .rdb-column h3 {
 	margin: 0;
 	padding: 0 0 0 10px;
 	display: inline;
@@ -8053,11 +8053,11 @@ a[onclick^="submitPreview"]:before {
 	font-weight: normal;
 }
 
-.rdb-group:last-child .rdb-columns .rdb-column  {
+#main .rdb-group:last-child .rdb-columns .rdb-column  {
 	padding-bottom: 150px;
 }
 
-.rdb-group-header h4 {
+#main .rdb-group-header h4 {
 	display: inline;
 	border: none;
 	padding: 0;
@@ -8065,7 +8065,7 @@ a[onclick^="submitPreview"]:before {
 	color: rgb(86, 107, 127);
 }
 
-.rdb-overall-progress {
+#main .rdb-overall-progress {
 	height: 8px;
 	background-color: #84D084;
 	overflow: hidden;
@@ -8074,7 +8074,7 @@ a[onclick^="submitPreview"]:before {
 	margin-bottom: 2px;
 }
 
-.rdb-overall-progress a {
+#main .rdb-overall-progress a {
 	height: 8px;
 
 	float: left;
@@ -8082,41 +8082,41 @@ a[onclick^="submitPreview"]:before {
 	background-color: cornflowerblue;
 }
 
-.rdb-overall-progress a:first-child {
+#main .rdb-overall-progress a:first-child {
 	background-color: rgb(232, 126, 126);
 }
 
-.rdb-issue {
+#main .rdb-issue {
 	margin: 5px;
 	margin-bottom: 8px;
 	font-size: 12px;
 	color: #777;
 }
 
-.rdb-issue-card {
+#main .rdb-issue-card {
 	width: 90%;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.rdb-priority-1 {
+#main .rdb-priority-1 {
 	border-color: #BDBDBD;
 }
-.rdb-priority-2 {
+#main .rdb-priority-2 {
 	border-color: #97B7CA;
 }
-.rdb-priority-3 {
+#main .rdb-priority-3 {
 	border-color: #FF7E00;
 }
-.rdb-priority-4 {
+#main .rdb-priority-4 {
 	border-color: #F24141;
 }
-.rdb-priority-5 {
+#main .rdb-priority-5 {
 	border-color: #F24141;
 }
 
-.rdb-card {
+#main .rdb-card {
 	width: 100%;
 	border: 1px solid;
 	background: #F9F9F9;
@@ -8126,13 +8126,13 @@ a[onclick^="submitPreview"]:before {
 	box-shadow: 0 0 0.5em #CCC;
 }
 
-.rdb-card .rdb-priority {
+#main .rdb-card .rdb-priority {
 	height: auto;
 }
 
-.rdb-card-header a.rdb-menu-link,
-.rdb-compact-header a.rdb-menu-link,
-.rdb-card-title > a {
+#main .rdb-card-header a.rdb-menu-link,
+#main .rdb-compact-header a.rdb-menu-link,
+#main .rdb-card-title > a {
 	padding-left: 18px;
 	background-image: url("img/cog.png");
 	background-repeat: no-repeat;
@@ -8143,12 +8143,12 @@ a[onclick^="submitPreview"]:before {
 	font-size: 0.9em;
 }
 
-.rdb-card-content {
+#main .rdb-card-content {
 	padding: 2px 4px 3px 5px;
 	font-size: .95em;
 }
 
-.rdb-card-subject {
+#main .rdb-card-subject {
 	display: block;
 	margin: 0 0 0.4em 0;
 	height: 3.4em;
@@ -8163,14 +8163,14 @@ a[onclick^="submitPreview"]:before {
 	padding: 3px 4px 3px 3px;
 }
 
-.rdb-card-progress,
-.rdb-compact-progress {
+#main .rdb-card-progress,
+#main .rdb-compact-progress {
 	background-color: #EEF0F5;
 	margin: 0 0;
 	clear: both;
 }
 
-.rdb-property {
+#main .rdb-property {
 	display: block;
 	padding: 1px 0 0 14px;
 	background: transparent none no-repeat 0 70%;
@@ -8180,27 +8180,27 @@ a[onclick^="submitPreview"]:before {
 	color: #bbb;
 }
 
-.rdb-property-tracker {
+#main .rdb-property-tracker {
 	background-image: url("img/ticket.png");
 	background-position: 0;
 }
-.rdb-property-assignee {
+#main .rdb-property-assignee {
 	background-image: url("img/user.png");
 	background-position: 0;
 }
-.rdb-property-category {
+#main .rdb-property-category {
 	background-image: url("img/brick.png");
 	display: none;
 	position: absolute;
 	visibility: hidden;
 }
-.rdb-property-version {
+#main .rdb-property-version {
 	background-image: url("img/package.png");
 	display: none;
 	position: absolute;
 	visibility: hidden;
 }
-.rdb-property-time {
+#main .rdb-property-time {
 	background-image: url("img/time.png");
 	font-size: 70%;
 	display: none;
@@ -8208,7 +8208,7 @@ a[onclick^="submitPreview"]:before {
 	visibility: hidden;
 }
 
-.rdb-compact {
+#main .rdb-compact {
 	border: 1px solid;
 	background-color: #F9F9F9;
 	position: relative;
@@ -8222,13 +8222,13 @@ a[onclick^="submitPreview"]:before {
 	box-shadow: 0 0 0.5em #CCC;
 }
 
-.rdb-compact-header {
+#main .rdb-compact-header {
 	padding: 0 2px 0 0;
 	font-size: 1em;
 	height: 1.3em;
 }
 
-.rdb-compact-header .rdb-compact-title a.rdb-menu-link {
+#main .rdb-compact-header .rdb-compact-title a.rdb-menu-link {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	padding-left: 18px;
@@ -8239,8 +8239,8 @@ a[onclick^="submitPreview"]:before {
 	font-size: 0.9em;
 }
 
-.rdb-card-header .rdb-card-header-data,
-.rdb-compact-header .rdb-compact-header-data {
+#main .rdb-card-header .rdb-card-header-data,
+#main .rdb-compact-header .rdb-compact-header-data {
 	height: 14px;
 	font-size: .8em;
 	overflow: hidden;
@@ -8248,21 +8248,21 @@ a[onclick^="submitPreview"]:before {
 	text-align: right;
 }
 
-.rdb-compact-header .rdb-property {
+#main .rdb-compact-header .rdb-property {
 	display: inline;
 	color: #bbb;
 	margin-right: 5px;
 }
 
-.rdb-compact-header .rdb-property .rdb-property-version {
+#main .rdb-compact-header .rdb-property .rdb-property-version {
 	display: none;
 }
 
-.rdb-compact-content {
+#main .rdb-compact-content {
 	padding: 5px 4px 4px 5px;
 	font-size: .95em;
 }
-.rdb-compact-subject {
+#main .rdb-compact-subject {
 	max-height: 1.3em;
 	text-overflow: ellipsis;
 	overflow: hidden;
