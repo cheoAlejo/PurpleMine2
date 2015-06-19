@@ -8222,7 +8222,7 @@ a[onclick^="submitPreview"]:before {
 	background-color: #F9F9F9;
 	position: relative;
 	border-color: #D9DBDF;
-	height: 50px;
+	height: 40px;
 	border: 1px solid;
 	/*background: #F9F9F9;*/
 	border-radius: 4px;
@@ -8272,7 +8272,7 @@ a[onclick^="submitPreview"]:before {
 	font-size: .95em;
 }
 #main .rdb-compact-subject {
-	max-height: 28px;
+	max-height: 20px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	width: 92%;
