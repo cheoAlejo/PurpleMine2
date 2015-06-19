@@ -8145,13 +8145,16 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .rdb-card {
-	width: 100%;
-	border: 1px solid;
-	background-color: #FAFAFA;
-	border-radius: 4px;
-	position: relative;
-	border-color: #C9CDD5;
-	box-shadow: 0 0 0.5em #CCC;
+  width: 100%;
+  border: 1px solid;
+  background-color: #FAFAFA;
+  border-radius: 4px;
+  position: relative;
+  border-color: #BABEC7;
+  box-shadow: 0 0 0.5em #CCC;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 
@@ -8181,10 +8184,10 @@ a[onclick^="submitPreview"]:before {
 	max-height: 4.4em;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	color: #888;
+	color: #5C606C;
 	font-weight: normal;
 	font-size: 12px;
-	border-bottom: 1px dashed #E4E4E4;
+	border-bottom: none;
 	padding: 3px 4px 3px 3px;
 }
 
@@ -8311,7 +8314,9 @@ a[onclick^="submitPreview"]:before {
   font-size: 0.9em;
 }
 
-
+#main .rdb-compact-progress {
+  display: none;
+}
 
 
 
