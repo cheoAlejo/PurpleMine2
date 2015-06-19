@@ -8017,3 +8017,270 @@ a[onclick^="submitPreview"]:before {
 #top-menu ul#custom-top-menu {
   margin-left: 20px;
 }
+
+
+
+
+/* # dashboard kanban */
+
+#rdb-board {
+	clear: both;
+
+	margin: 10px 15px;
+	padding: 8px 2px 2px;
+
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0;
+}
+
+#rdb-header .rdb-menu-link {
+	padding: 4px 18px 4px 6px;
+	border-radius: 2px;
+	color: rgb(86, 107, 127);
+}
+
+.rdb-headers .rdb-column {
+	border-bottom: none;
+	padding: 0 0 4px;
+}
+
+.rdb-headers .rdb-column h3 {
+	margin: 0;
+	padding: 0 0 0 10px;
+	display: inline;
+	color: rgb(86, 107, 127);
+	font-weight: normal;
+}
+
+.rdb-group:last-child .rdb-columns .rdb-column  {
+	padding-bottom: 150px;
+}
+
+.rdb-group-header h4 {
+	display: inline;
+	border: none;
+	padding: 0;
+	margin: 0;
+	color: rgb(86, 107, 127);
+}
+
+.rdb-overall-progress {
+	height: 8px;
+	background-color: #84D084;
+	overflow: hidden;
+	*zoom: 1;
+
+	margin-bottom: 2px;
+}
+
+.rdb-overall-progress a {
+	height: 8px;
+
+	float: left;
+	display: block;
+	background-color: cornflowerblue;
+}
+
+.rdb-overall-progress a:first-child {
+	background-color: rgb(232, 126, 126);
+}
+
+.rdb-issue {
+	margin: 5px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #777;
+}
+
+.rdb-issue-card {
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rdb-priority-1 {
+	border-color: #BDBDBD;
+}
+.rdb-priority-2 {
+	border-color: #97B7CA;
+}
+.rdb-priority-3 {
+	border-color: #FF7E00;
+}
+.rdb-priority-4 {
+	border-color: #F24141;
+}
+.rdb-priority-5 {
+	border-color: #F24141;
+}
+
+.rdb-card {
+	width: 100%;
+	border: 1px solid;
+	background: #F9F9F9;
+	border-radius: 4px;
+	position: relative;
+	border-color: #C9CDD5;
+	box-shadow: 0 0 0.5em #CCC;
+}
+
+.rdb-card .rdb-priority {
+	height: auto;
+}
+
+.rdb-card-header a.rdb-menu-link,
+.rdb-compact-header a.rdb-menu-link,
+.rdb-card-title > a {
+	padding-left: 18px;
+	background-image: url("img/cog.png");
+	background-repeat: no-repeat;
+	background-position: 4px 50%;
+	color: #ccc;
+	font-weight: normal;
+	padding-top: 4px;
+	font-size: 0.9em;
+}
+
+.rdb-card-content {
+	padding: 2px 4px 3px 5px;
+	font-size: .95em;
+}
+
+.rdb-card-subject {
+	display: block;
+	margin: 0 0 0.4em 0;
+	height: 3.4em;
+	min-height: 2.3em;
+	max-height: 4.4em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #888;
+	font-weight: normal;
+	font-size: 12px;
+	border-bottom: 1px dashed #E4E4E4;
+	padding: 3px 4px 3px 3px;
+}
+
+.rdb-card-progress,
+.rdb-compact-progress {
+	background-color: #EEF0F5;
+	margin: 0 0;
+	clear: both;
+}
+
+.rdb-property {
+	display: block;
+	padding: 1px 0 0 14px;
+	background: transparent none no-repeat 0 70%;
+	font-size: .9em;
+	overflow: hidden;
+	height: 14px;
+	color: #bbb;
+}
+
+.rdb-property-tracker {
+	background-image: url("img/ticket.png");
+	background-position: 0;
+}
+.rdb-property-assignee {
+	background-image: url("img/user.png");
+	background-position: 0;
+}
+.rdb-property-category {
+	background-image: url("img/brick.png");
+	display: none;
+	position: absolute;
+	visibility: hidden;
+}
+.rdb-property-version {
+	background-image: url("img/package.png");
+	display: none;
+	position: absolute;
+	visibility: hidden;
+}
+.rdb-property-time {
+	background-image: url("img/time.png");
+	font-size: 70%;
+	display: none;
+	position: absolute;
+	visibility: hidden;
+}
+
+.rdb-compact {
+	border: 1px solid;
+	background-color: #F9F9F9;
+	position: relative;
+	border-color: #D9DBDF;
+	height: 40px;
+	border: 1px solid;
+	background: #F9F9F9;
+	border-radius: 4px;
+	position: relative;
+	border-color: #C9CDD5;
+	box-shadow: 0 0 0.5em #CCC;
+}
+
+.rdb-compact-header {
+	padding: 0 2px 0 0;
+	font-size: 1em;
+	height: 1.3em;
+}
+
+.rdb-compact-header .rdb-compact-title a.rdb-menu-link {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+	background-position: 4px 50%;
+	display: block;
+	border-bottom-right-radius: 8px;
+	color: #ccc;
+	font-size: 0.9em;
+}
+
+.rdb-card-header .rdb-card-header-data,
+.rdb-compact-header .rdb-compact-header-data {
+	height: 14px;
+	font-size: .8em;
+	overflow: hidden;
+	padding-top: 3px;
+	text-align: right;
+}
+
+.rdb-compact-header .rdb-property {
+	display: inline;
+	color: #bbb;
+	margin-right: 5px;
+}
+
+.rdb-compact-header .rdb-property .rdb-property-version {
+	display: none;
+}
+
+.rdb-compact-content {
+	padding: 5px 4px 4px 5px;
+	font-size: .95em;
+}
+.rdb-compact-subject {
+	max-height: 1.3em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 92%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
