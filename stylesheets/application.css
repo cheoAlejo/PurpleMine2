@@ -7941,6 +7941,7 @@ a[onclick^="submitPreview"]:before {
   color: #DB8A6A;
   font-size: 0.86em;
   font-style: normal;
+  padding-left: 55px;
 }
 
 #top-menu .notification-content {
@@ -7949,7 +7950,7 @@ a[onclick^="submitPreview"]:before {
   word-wrap: break-word;
   white-space: normal;
   font-size: 1em;
-  padding-left: 0px;
+  padding-left: 55px;
 }
 
 
