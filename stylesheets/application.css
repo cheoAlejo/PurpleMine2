@@ -7855,6 +7855,16 @@ a[onclick^="submitPreview"]:before {
   text-shadow: 0 0 2px #FAA184;
 }
 
+#top-menu .notification-title img.gravatar {
+  width: 46px;
+  height: 46px;
+  float: left;
+  margin: 0;
+  margin-right: 7px;
+  padding-top: 3px;
+  border-radius: 0;
+}
+
 
 #top-menu #notificationsFooter {
   background-color: #f8f8f8;
@@ -7888,10 +7898,11 @@ a[onclick^="submitPreview"]:before {
 }
 
 #top-menu .notification-container {
-  padding: 6px 15px;
+  padding: 4px 10px 6px 5px;
   background-color: transparent;
-  margin: 6px;
+  margin: 4px;
   border-radius: 4px;
+  min-height: 51px;
 }
 
 #top-menu .notification-container:hover {
