@@ -7822,7 +7822,7 @@ a[onclick^="submitPreview"]:before {
   top: 30px;
   left: 0;
   margin-left: -5px;
-  width: 400px;
+  width: 430px;
   z-index: 1000;
   display: none;
   font-size: 0.92rem;
@@ -7849,7 +7849,7 @@ a[onclick^="submitPreview"]:before {
   padding: 8px;
   font-size: 1.2em;
   background-color: #f8f8f8;
-  width: 384px;
+  width: auto;
   border-bottom: 1px solid #BFBFBF;
   color: #B43E06;
   text-shadow: 0 0 2px #FAA184;
