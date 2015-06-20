@@ -8406,3 +8406,23 @@ a[href="/news"]:hover {
   text-decoration: none;
   background-color: rgb(55, 80, 125);
 }
+
+
+.controller-news .gravatar {
+  width: 40px;
+  height: 40px;
+}
+
+.controller-news p.author {
+  color: #D3804F;
+}
+
+.controller-news .wiki {
+  margin-top: 30px;
+}
+
+.controller-news h3 {
+  margin-top: 60px;
+  border-top: 1px dashed #ccc;
+  padding-top: 14px;
+}
