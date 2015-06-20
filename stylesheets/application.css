@@ -8420,8 +8420,13 @@ a[href="/news"]:hover {
 
 
 .controller-news .gravatar {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.controller-news h3>a {
+  font-size: 1.5em;
+  color: rgb(103, 147, 225);
 }
 
 .controller-news p.author {
