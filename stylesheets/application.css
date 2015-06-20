@@ -7814,7 +7814,6 @@ a[onclick^="submitPreview"]:before {
 }
 
 #top-menu #notificationsContainer {
-  /* color: #C72E2E; */
   background-color: #FFF;
   border: 1px solid #7D85A4;
   box-shadow: 0px 0px 14px #142565;
@@ -7822,7 +7821,7 @@ a[onclick^="submitPreview"]:before {
   top: 30px;
   left: 0;
   margin-left: -5px;
-  width: 430px;
+  width: 450px;
   z-index: 1000;
   display: none;
   font-size: 0.92rem;
@@ -7942,10 +7941,11 @@ a[onclick^="submitPreview"]:before {
   font-size: 0.86em;
   font-style: normal;
   padding-left: 55px;
+  text-align: right;
 }
 
 #top-menu .notification-content {
-  color: #9B9D9F;
+  color: #DBDBDB;
   display: block;
   word-wrap: break-word;
   white-space: normal;
@@ -7955,11 +7955,11 @@ a[onclick^="submitPreview"]:before {
 
 #top-menu .notification-content strong {
   font-weight: 600;
-  color: #9B9D9F;
+  color: #889DB3;
 }
 
 #top-menu .notification-content i:last-child {
-  color: #8394B3;
+  color: #86A9BB;
   font-weight: 600;
 }
 
