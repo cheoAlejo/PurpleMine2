@@ -7933,7 +7933,7 @@ a[onclick^="submitPreview"]:before {
 
 #top-menu .notification-title {
   font-weight: normal;
-  color: #7A7B7D;
+  color: #949495;
   font-size: 1em;
 }
 
@@ -7945,7 +7945,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #top-menu .notification-content {
-  color: #6F90CB;
+  color: #9B9D9F;
   display: block;
   word-wrap: break-word;
   white-space: normal;
@@ -7953,6 +7953,15 @@ a[onclick^="submitPreview"]:before {
   padding-left: 55px;
 }
 
+#top-menu .notification-content strong {
+  font-weight: 600;
+  color: #9B9D9F;
+}
+
+#top-menu .notification-content i:last-child {
+  color: #8394B3;
+  font-weight: 600;
+}
 
 
 
