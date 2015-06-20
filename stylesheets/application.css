@@ -7951,6 +7951,7 @@ a[onclick^="submitPreview"]:before {
   white-space: normal;
   font-size: 1em;
   padding-left: 55px;
+  min-height: 16px;
 }
 
 #top-menu .notification-content strong {
