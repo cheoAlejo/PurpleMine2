@@ -8453,3 +8453,16 @@ a[href="/news"]:hover {
   border-top: 1px dashed #ccc;
   padding-top: 14px;
 }
+
+
+
+/* People    */
+
+#main table.people.index tbody tr:hover {
+  background-color: transparent;
+}
+
+#main .people .name h1 a {
+  color: rgb(101, 107, 128);
+  font-size: 0.94em;
+}
