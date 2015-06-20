@@ -5101,7 +5101,9 @@ div.members h3:before {
   color: rgb(107, 161, 115);
 }
 div.news h3:before {
-	content: "\f1ea"
+	content: "\f1ea";
+	font-size: 1.2em;
+	color: #B85E53;
 }
 div.projects h3:before {
   content: "\f085";
@@ -6668,6 +6670,12 @@ h3.version a {
 
 .news.box>p {
   margin-top: 30px;
+  border: 1px dashed;
+  border-color: #ccc;
+  border-radius: 6px;
+  padding: 14px;
+  padding-bottom: 0px;
+  background-color: #FCFCFC;
 }
 
 
@@ -8355,7 +8363,7 @@ a[onclick^="submitPreview"]:before {
 /* # Home news */
 .news.box p {
   font-size: 1.3em;
-  color: rgb(115, 115, 114);
+  color: #5D5D5D;
 }
 
 .news.box>p {
@@ -8363,11 +8371,11 @@ a[onclick^="submitPreview"]:before {
 }
 
 .news.box p>a {
-  color: rgb(87, 129, 207);
+  color: #6182C1;
 }
 
 .news.box .summary {
-  font-size: 0.8em;
+  font-size: 0.76em;
 }
 
 .summary {
