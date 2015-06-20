@@ -8387,3 +8387,18 @@ a[onclick^="submitPreview"]:before {
   color: rgb(218, 83, 0);
   line-height: 3em;
 }
+
+a[href="/news"] {
+  line-height: 5em;
+  background-color: cornflowerblue;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 8px 14px 7px 14px;
+  border-radius: 3px;
+}
+
+a[href="/news"]:hover {
+  text-decoration: none;
+  background-color: rgb(55, 80, 125);
+}
