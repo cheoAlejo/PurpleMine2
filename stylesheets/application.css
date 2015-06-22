@@ -8440,8 +8440,9 @@ a[href="/news"]:hover {
   color: rgb(103, 147, 225);
 }
 
-.controller-news p.author {
+.controller-news .author {
   color: #D3804F;
+  line-height: 50px;
 }
 
 .controller-news .wiki {
