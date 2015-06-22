@@ -8442,11 +8442,13 @@ a[href="/news"]:hover {
 
 .controller-news .author {
   color: #D3804F;
-  line-height: 50px;
+  float: right;
+  line-height: 30px;
 }
 
 .controller-news .wiki {
   margin-top: 30px;
+  clear: both;
 }
 
 .controller-news h3 {
