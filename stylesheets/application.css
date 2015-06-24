@@ -7882,12 +7882,12 @@ a[onclick^="submitPreview"]:before {
 
 
 #top-menu #notificationsBody a {
-  /* color: #C63E3E; */
   text-decoration: none;
   display: inline;
   margin-right: 0;
   font-weight: normal;
   white-space: normal;
+  border: none;
 }
 
 
