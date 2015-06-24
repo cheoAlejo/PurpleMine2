@@ -6049,6 +6049,12 @@ a.sidebar-toggler.sidebar-hidden {
   height: 100%;
 }
 
+@media print {
+	a.sidebar-toggler.sidebar-hidden {
+		display: none;
+	}
+}
+
 .sidebar-toggler:before {
 	margin-right: 0
 }
