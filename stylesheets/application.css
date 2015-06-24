@@ -7884,9 +7884,8 @@ a[onclick^="submitPreview"]:before {
 #top-menu #notificationsBody a {
   /* color: #C63E3E; */
   text-decoration: none;
-  display: block;
+  display: inline;
   margin-right: 0;
-  border-bottom: 1px dashed #DAE1E6;
   font-weight: normal;
   white-space: normal;
 }
@@ -7902,6 +7901,7 @@ a[onclick^="submitPreview"]:before {
   margin: 4px;
   border-radius: 4px;
   min-height: 51px;
+  border-bottom: 1px dashed #DAE1E6;
 }
 
 #top-menu .notification-container:hover {
