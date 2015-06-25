@@ -1629,8 +1629,6 @@ tr.priority-default a:hover {
 	color: #e74c3c
 }
 .issue.details.priority-default>.attachments {
-	border-top-color: #d9d9d9;
-	background-color: #fdfdfd
 }
 .issue.details.priority-default>.attachments span.author {
 	color: #757575
@@ -2369,15 +2367,14 @@ table.files tr.file td.digest {
 }
 
 .issue div.attachments {
-	margin: 15px -15px -15px;
-	padding: 15px
+	padding: 15px;
 }
 div.fileover {
 	background-color: #fff9c8
 }
 div.attachments {
 	padding: 20px 0;
-	border-top: 1px solid #ccc
+	border-top: 1px dashed #DFE0E0;
 }
 div.attachments p {
 	margin: 10px 0 0
