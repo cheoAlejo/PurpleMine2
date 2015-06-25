@@ -8495,7 +8495,7 @@ a[href="/news"]:hover {
   font-size: 0;
 }
 
-#issue_tree .contextual>a:hover {
+#issue_tree .contextual>a:hover, #issue_tree .contextual>a:focus {
   text-decoration: none;
 }
 
