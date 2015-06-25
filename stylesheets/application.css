@@ -1075,23 +1075,28 @@ label.no-css {
 	float: left
 }
 .tabs>ul>li>a {
-	display: block;
-	min-width: 2em;
-	margin-right: 2px;
-	padding: 5px 8px;
-	border: 1px solid transparent;
-	border-radius: 3px 3px 0 0;
-	text-align: center
+  display: block;
+  min-width: 2em;
+  margin-right: 2px;
+  padding: 5px 30px;
+  border: 1px solid transparent;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  background-color: rgb(155, 160, 181);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
 }
 .tabs>ul>li>a:hover, .tabs>ul>li>a:focus {
-	border-color: whitesmoke whitesmoke #d9d9d9;
-	background-color: whitesmoke;
-	text-decoration: none
+  background-color: cornflowerblue;
+  border-color: transparent;
+  color: white;
 }
 .tabs>ul>li>a.selected {
 	border-color: #d9d9d9 #d9d9d9 #fff;
 	background: #fff;
-	color: #555555
+	color: #757FAD;
+	font-weight: 700;
 }
 .tabs .tabs-buttons {
 	position: absolute;
@@ -2484,7 +2489,7 @@ div.thumbnails img {
 .journal {
 	position: relative;
 	margin-bottom: 24px;
-	margin-left: 36px
+	margin-left: 56px
 }
 .journal:before {
 	display: block;
@@ -2556,8 +2561,10 @@ div.thumbnails img {
 }
 .journal h4>.gravatar {
 	margin-top: -4px;
-	margin-left: -52px;
-	float: left
+	margin-left: -68px;
+	float: left;
+	width: 40px !important;
+	height: 40px !important;
 }
 .journal .details {
 	margin: 0;
