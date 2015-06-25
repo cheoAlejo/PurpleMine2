@@ -8489,3 +8489,25 @@ a[href="/news"]:hover {
 #relations table.list.issues td {
   border: none;
 }
+
+
+#issue_tree .contextual>a {
+  font-size: 0;
+}
+
+#issue_tree .contextual>a:hover {
+  text-decoration: none;
+}
+
+
+#issue_tree .contextual>a:before {
+  content: "\f067";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.3rem;
+  color: #37A137;
+}
+
+#issue_tree .contextual>a:hover:before {
+  text-decoration: none;
+  color: #E06B25;
+}
