@@ -8476,3 +8476,8 @@ a[href="/news"]:hover {
 .issue.details div.description > p > strong {
   display: none;
 }
+
+#issue_tree>p>strong, #relations>p>strong {
+  font-weight: 500;
+  color: #999;
+}
