@@ -1082,23 +1082,28 @@ label.no-css {
   border: 1px solid transparent;
   border-radius: 5px 5px 0 0;
   text-align: center;
-  background-color: rgb(155, 160, 181);
+  background-color: #888FAD;
   color: white;
   font-size: 13px;
   font-weight: 600;
 }
 .tabs>ul>li>a:hover, .tabs>ul>li>a:focus {
-  background-color: cornflowerblue;
+  background-color: #E28156;
   border-color: transparent;
   color: white;
   text-decoration: none;
 }
 .tabs>ul>li>a.selected {
-	border-color: #d9d9d9 #d9d9d9 #fff;
-	background: #fff;
-	color: #757FAD;
-	font-weight: 700;
-	text-decoration: none;
+  border-color: #d9d9d9 #d9d9d9 #fff;
+  background: #fff;
+  color: #DF702E;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border-top: 2px solid #ED9662;
+  text-shadow: 0 0 1px rgb(250, 201, 171);
 }
 .tabs .tabs-buttons {
 	position: absolute;
