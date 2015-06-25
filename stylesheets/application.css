@@ -6544,9 +6544,12 @@ div#issue-changesets h3 {
 
 
 div#history h3 {
-  color: rgb(87, 129, 207);
+  color: white;
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1.1em;
+  background-color: rgb(110, 130, 166);
+  padding: 16px;
+  border-radius: 4px;
 }
 
 
