@@ -8491,23 +8491,24 @@ a[href="/news"]:hover {
 }
 
 
-#issue_tree .contextual>a {
+#issue_tree .contextual>a, #issue_tree .contextual>a {
   font-size: 0;
 }
 
-#issue_tree .contextual>a:hover, #issue_tree .contextual>a:focus {
+#issue_tree .contextual>a:hover, #issue_tree .contextual>a:focus,
+#relations .contextual>a:hover, #relations .contextual>a:focus {
   text-decoration: none;
 }
 
 
-#issue_tree .contextual>a:before {
+#issue_tree .contextual>a:before, #relations .contextual>a:before {
   content: "\f067";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.3rem;
   color: #37A137;
 }
 
-#issue_tree .contextual>a:hover:before {
+#issue_tree .contextual>a:hover:before, #relations .contextual>a:hover:before {
   text-decoration: none;
   color: #E06B25;
 }
