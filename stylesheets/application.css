@@ -6572,6 +6572,19 @@ div#history h3 {
   color: #DF5E47;
   font-size: 1.6em;
   margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.3em;
+  background-color: rgb(228, 114, 114);
+  padding: 16px;
+  border-radius: 4px;
+}
+
+#update h3:before {
+  content: "\f040";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.0em;
+  margin-right: 10px;
 }
 
 
