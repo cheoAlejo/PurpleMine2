@@ -7675,6 +7675,10 @@ span.add_attachment:before {
   font-size: 0;
 }
 
+#watchers .contextual a:hover, #watchers .contextual a:focus {
+	text-decoration: none;
+}
+
 #watchers .contextual a:before {
   content: "\f234";
   font: normal normal normal 14px/1 FontAwesome;
