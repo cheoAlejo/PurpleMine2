@@ -8491,7 +8491,7 @@ a[href="/news"]:hover {
 }
 
 
-#issue_tree .contextual>a, #issue_tree .contextual>a {
+#issue_tree .contextual>a, #relations .contextual>a {
   font-size: 0;
 }
 
