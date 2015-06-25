@@ -1091,12 +1091,14 @@ label.no-css {
   background-color: cornflowerblue;
   border-color: transparent;
   color: white;
+  text-decoration: none;
 }
 .tabs>ul>li>a.selected {
 	border-color: #d9d9d9 #d9d9d9 #fff;
 	background: #fff;
 	color: #757FAD;
 	font-weight: 700;
+	text-decoration: none;
 }
 .tabs .tabs-buttons {
 	position: absolute;
