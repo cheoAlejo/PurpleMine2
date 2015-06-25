@@ -2279,7 +2279,9 @@ table.files tr.file td.digest {
 .issue.details table img.gravatar {
 	position: relative;
 	top: -3px;
-	margin-right: 5px
+	margin-right: 5px;
+	width: 30px !important;
+    height: 30px !important;
 }
 .issue.details>.subject,
 .issue.details>.author {
@@ -6130,7 +6132,7 @@ a.sidebar-toggler.sidebar-hidden {
   font-size: 0.86em;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .issue.details.priority-lowest .attributes>tbody>tr>td.priority {
@@ -8519,4 +8521,11 @@ a[href="/news"]:hover {
 #issue_tree .contextual>a:hover:before, #relations .contextual>a:hover:before {
   text-decoration: none;
   color: #E06B25;
+}
+
+
+.issue.details .attributes td.assigned-to>a {
+  vertical-align: top;
+  font-weight: 600;
+  color: #ABA09F;
 }
