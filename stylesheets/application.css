@@ -7797,6 +7797,10 @@ a[onclick^="submitPreview"]:before {
   font-size: 0;
 }
 
+#top-menu a.app-notifications:focus {
+  text-decoration: none;
+}
+
 #top-menu a.app-notifications:before {
   content: "\f0a2";
   font: normal normal normal 14px/1 FontAwesome;
