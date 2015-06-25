@@ -1604,7 +1604,6 @@ tr.priority-default a:hover {
 }
 .issue.details.priority-default {
 	color: #555555;
-	background: #f9f9f9;
 }
 .issue.details.priority-default,
 .issue.details.priority-default hr {
@@ -1619,7 +1618,7 @@ tr.priority-default a:hover {
 	color: #959595
 }
 .issue.details.priority-default>.description>.wiki {
-	border-top-color: #ccc
+	
 }
 .issue.details.priority-default .wiki a {
 	text-decoration: none
@@ -1656,7 +1655,6 @@ tr.priority-high3 a {
 tr.priority-high3 a:hover {
 }
 .issue.details.priority-high3 {
-	border-left: 2px solid #FF7E00;
 }
 .issue.details.priority-high3,
 .issue.details.priority-high3 hr {
@@ -2317,7 +2315,7 @@ table.files tr.file td.digest {
 .issue.details>.description>.wiki {
 	margin: 0 -15px -15px;
 	padding: 20px;
-	border-top: 1px solid #ccc;
+	border-top: none;
 	background: #fff
 }
 .issue.details .next-prev-links {
