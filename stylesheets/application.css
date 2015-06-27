@@ -8559,3 +8559,9 @@ a[href="/news"]:hover {
   font-weight: 600;
   color: #ABA09F;
 }
+
+
+.controller-repositories.action-revision img.gravatar {
+  width: 50px !important;
+  height: 50px !important;
+}
