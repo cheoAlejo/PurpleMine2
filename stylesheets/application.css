@@ -8359,7 +8359,7 @@ a[onclick^="submitPreview"]:before {
 }
 
 #main .rdb-issue-compact {
-  margin-bottom: -6px;
+  margin-bottom: 6px;
 }
 
 #main .rdb-container a {
