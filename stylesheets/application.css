@@ -3535,12 +3535,13 @@ div.wiki a.new {
 	color: #e74c3c
 }
 div.wiki code {
-	padding: .2em .33em;
+	padding: .18em .4em;
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.04);
     border: 1px solid #E7E7E7;
     font-weight: 600;
-    color: #6E7A94;
+    color: #6E7480;
+    font-size: 1.12em;
 }
 div.wiki pre {
 	width: auto;
