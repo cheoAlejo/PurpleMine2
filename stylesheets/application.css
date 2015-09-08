@@ -6553,7 +6553,7 @@ div#issue-changesets h3 {
 }
 
 
-div#history h3 {
+div#history > h3 {
   color: white;
   font-weight: 600;
   font-size: 1.1em;
