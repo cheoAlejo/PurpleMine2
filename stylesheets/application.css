@@ -5566,7 +5566,7 @@ table.list th.checkbox>a img {
 	margin-left: 5px;
 	border-color: #A44343;
 	background: #D98989;
-	color: #deddef;
+	color: #fff;
 	border-radius: 3px;
 	-webkit-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
 	-o-transition: color ease-in-out .1s, background-color ease-in-out .1s, border-color ease-in-out .1s;
