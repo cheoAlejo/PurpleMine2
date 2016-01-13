@@ -8571,3 +8571,26 @@ a[href="/news"]:hover {
   width: 50px !important;
   height: 50px !important;
 }
+
+
+.controller-stuff_to_do div#sidebar {
+    float: none;
+}
+
+.controller-stuff_to_do a.sidebar-toggler.sidebar-hidden {
+    visibility: hidden;
+}
+
+.controller-stuff_to_do h1 {
+    float: none;
+}
+
+#top-menu a.stuff-to-do {
+    font-size: 0;
+}
+
+#top-menu a.stuff-to-do:before {
+  content: "\f274";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.2rem;
+}
