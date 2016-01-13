@@ -8590,7 +8590,7 @@ a[href="/news"]:hover {
 }
 
 #top-menu a.stuff-to-do:before {
-  content: "\f274";
+  content: "\f160";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 1.2rem;
 }
