@@ -8616,7 +8616,7 @@ a.icon.custom-icon-flag_blue.custom-button:hover {
 }
 
 /* Boton pasar a ejecutado */
-a.icon.custom-icon-flag_blue.custom-button {
+a.icon.custom-icon-tick.custom-button {
     background-image: url(/images/ejecutado.png);
     background-color: transparent;
     border: 1px solid #dedede;
@@ -8626,7 +8626,7 @@ a.icon.custom-icon-flag_blue.custom-button {
     margin-left: 8px;
 }
 
-a.icon.custom-icon-flag_blue.custom-button:hover {
+a.icon.custom-icon-tick.custom-button:hover {
     background-color: #fafafa;
     border: 1px solid #c1bfbf;
 }
