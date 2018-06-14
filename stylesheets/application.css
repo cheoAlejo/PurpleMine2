@@ -8567,3 +8567,83 @@ a[href="/news"]:hover {
 }
 
 
+/* Botón pasar a en progreso*/
+a.icon.custom-icon-lightning_add.custom-button {
+    background-image: url(/images/enprogreso.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-lightning_add.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
+/* Botón Pasar a en testéo */
+a.icon.custom-icon-status_away.custom-button {
+    background-image: url(/images/entesteo.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-status_away.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
+/* Botón pasar a por hacer */
+a.icon.custom-icon-flag_blue.custom-button {
+    background-image: url(/images/porhacer.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-flag_blue.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
+/* Boton pasar a ejecutado */
+a.icon.custom-icon-flag_blue.custom-button {
+    background-image: url(/images/ejecutado.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-flag_blue.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
+/* Botón pasar a cerrado */
+a.icon.custom-icon-thumb_up.custom-button {
+    background-image: url(/images/cerrado.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-thumb_up.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
