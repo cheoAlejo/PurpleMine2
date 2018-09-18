@@ -8647,3 +8647,19 @@ a.icon.custom-icon-thumb_up.custom-button:hover {
     border: 1px solid #c1bfbf;
 }
 
+/* Code review */
+.issue.details .attributes > tbody > tr > td.cf_18 {
+    /*display: inline-block;*/
+    width: auto;
+    min-width: 1em;
+    margin-top: 3px;
+    padding: 3px 20px 3px 20px;
+    border-radius: 3px;
+    background-color: #F24141;
+    color: #fff;
+    font-size: 0.86em;
+    /*font-weight: bold;*/
+    /*text-transform: uppercase;*/
+    margin-bottom: 20px;
+}
+
