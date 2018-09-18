@@ -6252,6 +6252,14 @@ a.sidebar-toggler.sidebar-hidden {
 }
 
 
+table.list.issues .status-8 .status {
+    background-image: url(/images/inreview.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    padding-left: 50px;
+}
+
 
 div.topic ul.meta li.icon
 {
