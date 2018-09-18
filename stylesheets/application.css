@@ -8661,3 +8661,6 @@ a.icon.custom-icon-thumb_up.custom-button:hover {
     font-weight: bold;
 }
 
+.issue.details .attributes > tbody > tr > td.cf_18:empty {
+    background-color: transparent;
+}
