@@ -6242,6 +6242,17 @@ a.sidebar-toggler.sidebar-hidden {
 }
 
 
+.status-8 table.attributes td.status {
+  background-image: url(/images/inreview.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #579857;
+}
+
+
+
 div.topic ul.meta li.icon
 {
 	background-color: transparent;
