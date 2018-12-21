@@ -8732,6 +8732,25 @@ a.icon.custom-icon-tag_blue.custom-button:hover {
     border: 1px solid #c1bfbf;
 }
 
+
+/* QA: Testéo; */
+.issue.details .attributes > tbody > tr > td.cf_19 {
+    display: inline-block;
+    width: auto;
+    min-width: 1em;
+    margin-top: 0;
+    padding: 4px 14px;
+    border-radius: 3px;
+    background-color: #13171B;
+    color: #FAAE6A;
+    font-size: 0.90em;
+    font-weight: bold;
+}
+
+.issue.details .attributes > tbody > tr > td.cf_19:empty {
+    background-color: transparent;
+}
+
 /* Botón testéo admin */
 a.icon.custom-icon-telephone.custom-button {
     background-image: url(/images/testadmin.png);
