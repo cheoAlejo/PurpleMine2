@@ -8672,6 +8672,7 @@ a.icon.custom-icon-thumb_up.custom-button:hover {
     width: auto;
     min-width: 1em;
     margin-top: 0;
+    margin-bottom: 10px;
     padding: 4px 14px;
     border-radius: 3px;
     background-color: #13171B;
@@ -8730,6 +8731,25 @@ a.icon.custom-icon-tag_blue.custom-button {
 a.icon.custom-icon-tag_blue.custom-button:hover {
     background-color: #fafafa;
     border: 1px solid #c1bfbf;
+}
+
+
+/* QA: Testéo; */
+.issue.details .attributes > tbody > tr > td.cf_19 {
+    display: inline-block;
+    width: auto;
+    min-width: 1em;
+    margin-top: 0;
+    padding: 4px 14px;
+    border-radius: 3px;
+    background-color: #b93f9b;
+    color: #FFFFFF;
+    font-size: 0.90em;
+    font-weight: bold;
+}
+
+.issue.details .attributes > tbody > tr > td.cf_19:empty {
+    background-color: transparent;
 }
 
 /* Botón testéo admin */
