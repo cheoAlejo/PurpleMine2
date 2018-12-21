@@ -8672,6 +8672,7 @@ a.icon.custom-icon-thumb_up.custom-button:hover {
     width: auto;
     min-width: 1em;
     margin-top: 0;
+    margin-bottom: 10px;
     padding: 4px 14px;
     border-radius: 3px;
     background-color: #13171B;
