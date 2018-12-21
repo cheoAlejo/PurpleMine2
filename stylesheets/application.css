@@ -8700,6 +8700,38 @@ a.icon.custom-icon-bomb.custom-button:hover {
     border: 1px solid #c1bfbf;
 }
 
+/* Botón Code Review Failed */
+a.icon.custom-icon-stop.custom-button {
+    background-image: url(/images/cr-failed.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-stop.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
+/* Botón Code Review OK */
+a.icon.custom-icon-tag_blue.custom-button {
+    background-image: url(/images/cr-ok.png);
+    background-color: transparent;
+    border: 1px solid #dedede;
+    color: gray;
+    font-size: 0;
+    padding: 20px 24px 11px 15px;
+    margin-left: 8px;
+}
+
+a.icon.custom-icon-tag_blue.custom-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #c1bfbf;
+}
+
 /* Botón testéo admin */
 a.icon.custom-icon-telephone.custom-button {
     background-image: url(/images/testadmin.png);
